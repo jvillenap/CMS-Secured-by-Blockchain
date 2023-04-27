@@ -58,12 +58,12 @@ Last step is the creation of the OCI Storage Bucket, configuration of the VBCS a
 
 Here you have the links to each of the labs to fulfill this HoL:  
 
-   [1. Create an Oracle Blockchain Network](../../blob/main/01-Create-The-Network/README.md)  
-   [2. Preparation of Oracle App Builder development environment](../../blob/main/02-Prepare-Dev-Environment/README.md)  
-   [3. Creation, Installation, Deployment and Initialization of the SmartContract](../../blob/main/03-Creation-and-Deployment-of-an-FT-SmartContract/README.md)  
-   [4. Creation and Configuration of the OCI Storage Bucket](../../blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/README.md)   
-   [5. Configuration and Deployment of the Web Application](../../blob/main/05-Test-Smartcontract-Using-Postman/README.md)  
-   [6. Test the Application](../../blob/main/05-Test-Smartcontract-Using-Postman/README.md)  
+   [1. Create an Oracle Blockchain Network](../../blob/main/1-create-network/README.md)  
+   [2. Preparation of Oracle App Builder development environment](../../blob/main/2-install-AppBuilder/README.md)  
+   [3. Creation, Installation, Deployment and Initialization of the SmartContract](../../blob/main/3-smartcontract/README.md)  
+   [4. Creation and Configuration of the OCI Storage Bucket](../../blob/main/4-bucket/README.md)   
+   [5. Configuration and Deployment of the Web Application](../../blob/main/5-webbApp/README.md)  
+   [6. Test the Application](../../blob/main/6-test/README.md)  
 
 
 
