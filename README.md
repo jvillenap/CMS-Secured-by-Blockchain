@@ -3,7 +3,7 @@
 This HoL has been created to demonstrate how easily you can create a custom CMS enriched with a verification of non-tampering of the documents by using blockchain as a certifier of the integrity of the documents.
 
 <p align="center">
-<img width="416" height="307" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/WEDO_CMS_LogicalArchitecture.jpg"/>
+<img width="416" height="307" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/0_WEDO_CMS_LogicalArchitecture.jpg"/>
 </p>
 
 
