@@ -2,9 +2,15 @@
 
 This HoL has been created to demonstrate how easily you can create a custom CMS enriched with a verification of non-tampering of the documents by using blockchain as a certifier of the integrity of the documents.
 
+<p align="center">
+<img width="371" height="392" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/WEDO_CMS_LogicalArchitecture.jpg"/>
+</p>
+
 
 
 Acting as a CMS we are using just a bucket in OCI Storage, where content of documents are saved at this layer.
+
+
 
 
 
