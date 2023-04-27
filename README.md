@@ -20,7 +20,14 @@ We are also using [Oracle Integration Cloud](https://www.oracle.com/es/integrati
 As you will see during the HoL, Oracle Visual Builder does not need to be instantiated. We have used Oracle Visual Builder to develope the web application, but once developed, you can just deploy the provided web application in whatever compute instance which can execute Node.js, so not needing to create any instance of Visual Builder, because the web application is self-contained.
 
 And finally, we are also using the Identity Management solution offered by OCI, it is [Identity Cloud Service (IDCS)](https://www.oracle.com/es/security/cloud-security/identity-cloud/ "Oracle Identity Cloud Service"), where all the users who need to access to the solution, have been created, and granted to access with the proper privileges depending on their role.
- 
+
+it is important to highlight that, among the information stored in blockchain for each document, there is a hash generated based on the binary content of the document, here we can see how this hash is included among the metadata information of each document to be Stored into the blockchain ledger:
+<p align="center">
+<img width="1280" height="720" src=""/>
+</p>
+
+if someone modifies the document from its external location, in our case a bucket in OCI Storage, next time someone tries to retrieve the document, the verfication based on validity of the hash will fail, so the user will be notified for the tampering of the document.
+
 
 
 
