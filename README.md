@@ -8,22 +8,22 @@ The whole solution is created using just three Oracle Cloud Services we depict i
 <img width="416" height="307" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/0_WEDO_CMS_LogicalArchitecture.jpg"/>
 </p>
 
+As you can see in the picture, we are using two different persistence solutions, it is:
 1. First of all Oracle Blockchain, it is the core piece of the solution, here is where the metadata of the documents are stored, like its name, kind of file, URL to be able to locate the document, or a hash generated based on the binary content of the document.
 
 2. We are also using OCI Object Storage, where documents itself, are stored.
 	This is probably the best choice for those who needs the cheapest and most reliable storage solution. 
 	OCI Object Storage allows you to store thousands of documents at a negligible cost.
 
-3. We are also using Oracle Integration Cloud, not only for its integration capabilities, also because its extremely powerful Web & Mobile Low-Code development environment embedded in it, it is: Visual Builder Studio. 
-	It makes possible the development of a web or mobile interface in hours instead of weeks!
+We are also using Oracle Integration Cloud, not only for its integration capabilities, also because its extremely powerful Web & Mobile Low-Code development environment embedded in it, it is: Oracle Visual Builder. It makes possible the development of a web or mobile interface in hours instead of weeks!
 
-4. And finally, we are also using the Identity Management solution offered by OCI, it is IDCS, where all the users who need to access to the solution, have been created, and granted to access with the proper privileges depending on their role.
+As you will see during the HoL, Oracle Visual Builder does not need to be instantiated. We have used Oracle Visual Builder to develope the web application, but once developed, you can just deploy the provided web application in whatever compute instance which can execute Node.js, so not needing to create any instance of Visual Builder, because the web application is self-contained.
+
+And finally, we are also using the Identity Management solution offered by OCI, it is IDCS, where all the users who need to access to the solution, have been created, and granted to access with the proper privileges depending on their role.
  
-As you will see during the HoL, Oracle Visual Builder does not need to be instantiated. We have used Visual Builder to develope the web application, but once developed, you can just deploy your web application in whatever compute instance which can execute node.js, so not needing to create any instance of Visual Builder.
 
 
 
-As a persistence layer we are using Buckets from Oracle S
 
 
 Acting as a CMS we are using just a bucket in OCI Storage, where content of documents are saved at this layer.
