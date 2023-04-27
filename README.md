@@ -23,7 +23,7 @@ And finally, we are also using the Identity Management solution offered by OCI, 
 
 it is important to highlight that, among the information stored in blockchain for each document, there is a hash generated based on the binary content of the document, here we can see how this hash is included among the metadata information of each document to be Stored into the blockchain ledger:
 <p align="center">
-<img width="620" height="530" src="1_PostmanDocHash2.png"/>
+<img width="620" height="530" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/1_PostmanDocHash2.png"/>
 </p>
 
 if someone modifies the document from its external location, in our case a bucket in OCI Storage, next time someone tries to retrieve the document, the verfication based on validity of the hash will fail, so the user will be notified for the tampering of the document.
@@ -33,7 +33,7 @@ Regarding with the functional use case, the assets we are going to develope simu
 The expedient is represented into blockchain as a non fungible token (NFT), it means we can define the different kind of actions which can be executed against it, depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
 
 <p align="center">
-<img width="1180" height="769" src="2_socumentWorkflow.png"/>
+<img width="1180" height="769" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_socumentWorkflow.png"/>
 </p>
  
 If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
