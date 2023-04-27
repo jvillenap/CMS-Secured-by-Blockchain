@@ -32,8 +32,6 @@ Regarding with the functional use case, the assets we are going to develop simul
 	
 The expedient is represented into blockchain as a non fungible token (NFT), because this kind of tokens fit really well in situations where one key aspect is the ownership of the asset. It means we can define the different kind of actions which can be executed against it depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
 
-If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first Smartcontract handking Fungible and Non-Fungible tokens on Hyperledger Fabric, and test them really easily.
-
 <p align="center">
 <img width="785" height="510" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
 </p>
@@ -42,6 +40,8 @@ There will be two different roles to access to the documents through the applica
 * ***Expedient Manager***: If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
 
 * ***Document Reviewer***:In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
+
+If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first Smartcontract handling Fungible and Non-Fungible tokens on Hyperledger Fabric, and test them really easily.
 
 
 Steps to execute the HoL
