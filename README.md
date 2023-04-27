@@ -73,7 +73,7 @@ What we are going to use to develop this HoL
 Leveraging in Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a new participant. For the purpose of this HoL, we are going to create the most simple network where there is one single participant, obviously the founder of the network. This single organization network, does not have too much sense, but after the initial creation it can be easily extended by adding new organizations to the network. So, the topology of the network will be something like: 
 
 <p align="center">
-<img width="371" height="392" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/images/0-intro-2-1.png"/>
+<img width="371" height="392" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/3-bc_topology.png"/>
 </p>
 
 
