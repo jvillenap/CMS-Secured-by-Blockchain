@@ -35,10 +35,11 @@ The expedient is represented into blockchain as a non fungible token (NFT), it m
 <p align="center">
 <img width="785" height="510" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
 </p>
- 
-If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
 
-In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
+There will be two different roles to access to the documents through the application:
+* '''Expedient Manager''': If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
+
+* '''Document Reviewer''':In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
 
 
 
