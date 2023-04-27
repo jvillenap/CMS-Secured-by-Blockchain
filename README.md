@@ -50,7 +50,55 @@ There will be two different roles to access to the documents through the applica
 
 
 
-Non-Fungible Tokens (NFT) are unique digital identifiers that cannot be copied, substituted, or subdivided, recorded in a blockchain, and that is used to certify authenticity and custodianship. NFT is the perfect digital twin for whatever kind of physical or digital asset which can be used to track any usage, event, status change, or any other kind of peculiarity which makes sense to be tracked. Blockchain will provide an easily accesible inmutable history of the asset, which will be really valuable for whatever entity or person interested in the tracking performed on the asset itself.
+
+
+
+
+
+
+
+
+
+test the application
+====================
+A simple VBCS application has been created to show how to create or to interoperate with existing expedients.
+
+This VB application interacts against the two backends used in the solution, it is BC and the buckets of OCI storage, using IC as interface to decouple the business logic
+	from the navigation and presentation layers.  
+
+Login as an expedient manager, the user will be able to access to the expedients for which he/she is the current owner, 
+	... or create a new expedient, for which he/she will be the current custodian.
+	being able to add more documents into the expedient, or transfer the whole expedient to a different user/department.
+
+demo create new expedient
+
+In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
+
+Also we can see how the uploaded documents has been saved into a bucket of our tennacy.
+
+
+Login as a document reviewer, any user who has access to the app
+	will be able to review documents from any expedient.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you are interested in now a little bit more about FTs and NFTs, check this other HoL, in which you can deploy your first NFT and FT really easily: 
+- [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain")
+
+
 
 Using Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a participant. For the purpose of this HoL, we are going to create a new network in which there will be two participants:
 - *Founder of the network*: ***eshop***, a shop which rent assets.
