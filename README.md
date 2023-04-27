@@ -15,7 +15,7 @@ As you can see in the picture, we are using two different persistence solutions,
 	This is probably the best choice for those who needs the cheapest and most reliable storage solution. 
 	OCI Object Storage allows you to store thousands of documents at a negligible cost.
 
-We are also using Oracle Integration Cloud, not only for its integration capabilities, also because its extremely powerful Web & Mobile Low-Code development environment embedded in it, it is: Oracle Visual Builder. It makes possible the development of a web or mobile interface in hours instead of weeks!
+We are also using [Oracle Integration Cloud](https://www.oracle.com/es/integration/application-integration/ "Oracle Integration Cloud"), not only for its integration capabilities, also because its extremely powerful Web & Mobile Low-Code development environment embedded in it, it is: [Oracle Visual Builder](https://www.oracle.com/es/integration/application-integration/#rc30p3 "Oracle Visual Builder"). It makes possible the development of a web or mobile interface in hours instead of weeks!
 
 As you will see during the HoL, Oracle Visual Builder does not need to be instantiated. We have used Oracle Visual Builder to develope the web application, but once developed, you can just deploy the provided web application in whatever compute instance which can execute Node.js, so not needing to create any instance of Visual Builder, because the web application is self-contained.
 
