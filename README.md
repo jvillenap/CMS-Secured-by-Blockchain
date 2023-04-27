@@ -33,7 +33,7 @@ Regarding with the functional use case, the assets we are going to develope simu
 The expedient is represented into blockchain as a non fungible token (NFT), it means we can define the different kind of actions which can be executed against it, depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
 
 <p align="center">
-<img width="786" height="512" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
+<img width="591" height="385" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
 </p>
  
 If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
