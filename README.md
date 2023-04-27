@@ -68,15 +68,14 @@ Here you have the links to each of the labs to fulfill this HoL:
 
 
 
-What we are going to use to develop the HoL
-===========================================
-Using Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a participant. For the purpose of this HoL, we are going to create a new network in which there will be two participants:
-- *Founder of the network*: ***eshop***, a shop which rent assets.
-- *One Participant*: ***lessee1***, a lessee who rents assets from the eshop organization.
+What we are going to use to develop this HoL
+============================================
+Leveraging in Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a new participant. For the purpose of this HoL, we are going to create the most simple network where there is one single participant, obviously the founder of the network. This single organization network, does not have too much sense, but after the initial creation it can be easily extended by adding new organizations to the network. So, the topology of the network will be something like: 
 
 <p align="center">
 <img width="371" height="392" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/images/0-intro-2-1.png"/>
 </p>
+
 
 In this Hyperledger Fabric network we will create a dedicated channel to be used only for the smartcontracts related with our use case. This channel will be named ***rentalshop***, and obviously both existing participants of the network will join this channel:
 
