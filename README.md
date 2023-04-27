@@ -28,9 +28,11 @@ it is important to highlight that, among the information stored in blockchain fo
 
 if someone modifies the document from its external location, in our case a bucket in OCI Storage, next time someone tries to retrieve the document, the verfication based on validity of the hash will fail, so the user will be notified for the tampering of the document.
 
-Regarding with the functional use case, the assets we are going to develope simulates an expedient management solution for a financial institution, in which each expedient represents a financial operation for a customer, and the expedient is acting as an archive where a sort of documents related with the operation are managed as a whole. 
+Regarding with the functional use case, the assets we are going to develop simulates an expedient management solution for a financial institution, in which each expedient represents a financial operation for a customer, and the expedient is acting as an archive where a sort of documents related with the operation are managed as a whole. 
 	
-The expedient is represented into blockchain as a non fungible token (NFT), it means we can define the different kind of actions which can be executed against it, depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
+The expedient is represented into blockchain as a non fungible token (NFT), because this kind of tokens fit really well in situations where one key aspect is the ownership of the asset. It means we can define the different kind of actions which can be executed against it depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
+
+If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first FT and NFT on Hyperledger Fabric and test them really easily.
 
 <p align="center">
 <img width="785" height="510" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
@@ -42,10 +44,32 @@ There will be two different roles to access to the documents through the applica
 * ***Document Reviewer***:In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
 
 
+Steps to execute the HoL
+========================
+First of all we will create an Hyperledger Fabric network, which initially will be composed of one single organization, but can be easily scaled to as many members as you can. You can follow the instructions in the first labs of the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL to see how you can do it.
+
+Then, we will proceed to create the smartcontract to handle the logic needed to persist and manage into blockchain the entities required by our business case. 
+
+Once the smartcontract gets created, we will install and deploy it into our blockchain network, and create the enrolments, configure the accounts who can own the NFT token, and initialize the NFT token!!!
+
+At this point, the smartcontract methods have already been published through the API Gateway of our Oracle Blockchain instance, so they are ready to be used by the client applications, in our case the Web Application we have already created with VBCS, and we will provide in this chapter.
+
+Last step is the creation of the OCI Storage Bucket, configuration of the VBCS application, and deploy it.
+
+Here you have the links to each of the labs to fulfill this HoL:  
+
+   [1. Create an Oracle Blockchain Network](../../blob/main/01-Create-The-Network/README.md)  
+   [2. Preparation of Oracle App Builder development environment](../../blob/main/02-Prepare-Dev-Environment/README.md)  
+   [3. Creation, Installation, Deployment and Initialization of the SmartContract](../../blob/main/03-Creation-and-Deployment-of-an-FT-SmartContract/README.md)  
+   [4. Creation and Configuration of the OCI Storage Bucket](../../blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/README.md)   
+   [5. Configuration and Deployment of the Web Application](../../blob/main/05-Test-Smartcontract-Using-Postman/README.md)  
+   [6. Test the Application](../../blob/main/05-Test-Smartcontract-Using-Postman/README.md)  
 
 
 
 
+What we are going to use to develop the HoL
+===========================================
 Using Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a participant. For the purpose of this HoL, we are going to create a new network in which there will be two participants:
 - *Founder of the network*: ***eshop***, a shop which rent assets.
 - *One Participant*: ***lessee1***, a lessee who rents assets from the eshop organization.
@@ -78,21 +102,6 @@ AppBuilder will help you to reduce considerably the complexity of the developmen
 <img width="814" height="392" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/images/0-intro-2-5.png"/>
 </p>
 
-First of all we are going to create the smartcontract used to handle a cryptocurrency which will be represented as a Fungible Token (FT), and will be used to pay for the rented assets. Lessee will need to aquire tokens of this crypto to be able to rent the assets from the eshop. 
-
-There will be a second smartcontract used to handle the Non-fungible token (NFT) which will be the digital representation in Blockchain of the real assets to be rented by the eShop company to the different lessees. 
-
-Once each of the smartcontracts get created, we will install and deploy them into the different instances which compound the Blockchain Network created during the first lab.
-
-Once all the tasks has been done, as Oracle Blockchain publishes all the smartcontract methods as REST APIs, we can execute a whole sample simulating the rental of an asset, just using Postman.
-
-Here you have the links to each of the labs to fulfill this HoL:  
-
-   [1. Create an Oracle Blockchain Network](../../blob/main/01-Create-The-Network/README.md)  
-   [2. Preparation of Oracle App Builder development environment](../../blob/main/02-Prepare-Dev-Environment/README.md)  
-   [3. Creation, Installation and Deployment of a SmartContract handling FTs](../../blob/main/03-Creation-and-Deployment-of-an-FT-SmartContract/README.md)  
-   [4. Creation, Installation and Deployment of a SmartContract handling NFTs](../../blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/README.md)   
-   [5. Test the SmartContracts using Postman](../../blob/main/05-Test-Smartcontract-Using-Postman/README.md)  
 
 
 
@@ -147,8 +156,6 @@ Login as a document reviewer, any user who has access to the app
 
 
 
-
-If you are interested in know a little bit more about FTs and NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first FT and NFT on Hyperledger Fabric and test them really easily.
 
 
 
