@@ -11,7 +11,7 @@ The whole solution is created using just three Oracle Cloud Services we depict i
 As you can see in the picture, we are using two different persistence solutions, it is:
 1. First of all [Oracle Blockchain](https://www.oracle.com/es/blockchain/ "Oracle Blockchain Cloud Service"), it is the core piece of the solution, here is where the metadata of the documents are stored, like its name, kind of file, URL to be able to locate the document, or a hash generated based on the binary content of the document.
 
-2. We are also using OCI Object Storage, where documents itself, are stored.
+2. We are also using [OCI Object Storage](https://www.oracle.com/es/cloud/storage/object-storage/ "Oracle Cloud Infrastructure (OCI) Object Storage"), where documents itself, are stored.
 	This is probably the best choice for those who needs the cheapest and most reliable storage solution. 
 	OCI Object Storage allows you to store thousands of documents at a negligible cost.
 
