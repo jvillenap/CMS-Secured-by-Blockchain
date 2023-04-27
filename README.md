@@ -95,8 +95,7 @@ Login as a document reviewer, any user who has access to the app
 
 
 
-If you are interested in now a little bit more about FTs and NFTs, check this other HoL, in which you can deploy your first NFT and FT really easily: 
-- [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain")
+If you are interested in now a little bit more about FTs and NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first FT and NFT really easily.
 
 
 
