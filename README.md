@@ -23,28 +23,33 @@ And finally, we are also using the Identity Management solution offered by OCI, 
 
 it is important to highlight that, among the information stored in blockchain for each document, there is a hash generated based on the binary content of the document, here we can see how this hash is included among the metadata information of each document to be Stored into the blockchain ledger:
 <p align="center">
-<img width="1280" height="720" src=""/>
+<img width="620" height="530" src="1_PostmanDocHash2.png"/>
 </p>
 
 if someone modifies the document from its external location, in our case a bucket in OCI Storage, next time someone tries to retrieve the document, the verfication based on validity of the hash will fail, so the user will be notified for the tampering of the document.
 
+Regarding with the functional use case, the assets we are going to develope simulates an expedient management solution for a financial institution, in which each expedient represents a financial operation for a customer, and the expedient is acting as an archive where a sort of documents related with the operation are managed as a whole. 
+	
+The expedient is represented into blockchain as a non fungible token (NFT), it means we can define the different kind of actions which can be executed against it, depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
+
+<p align="center">
+<img width="1180" height="769" src="2_socumentWorkflow.png"/>
+</p>
+ 
+If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
+
+In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
 
 
 
 
 
-Acting as a CMS we are using just a bucket in OCI Storage, where content of documents are saved at this layer.
 
 
 
 
-
-
-in which blockchain is used  develop a solution without to much efford where FTs and/or NFTs were needed, thanks to Oracle Blockchain and the Oracle AppBuilder tool. Basically what we will do is create an eShop for rental of assets represented as NFTs asking to pay using a digital coin represented as FTs, having both tokens stored and managed in the same blockchain network!
 
 Non-Fungible Tokens (NFT) are unique digital identifiers that cannot be copied, substituted, or subdivided, recorded in a blockchain, and that is used to certify authenticity and custodianship. NFT is the perfect digital twin for whatever kind of physical or digital asset which can be used to track any usage, event, status change, or any other kind of peculiarity which makes sense to be tracked. Blockchain will provide an easily accesible inmutable history of the asset, which will be really valuable for whatever entity or person interested in the tracking performed on the asset itself.
-
-Fungible Tokens (FT) are digital currencies designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it. Using FTs you will be able to create whatever kind of echangable currency, controlling easily the accounting assinged to the users, and the privileges assigned to each participant to ensure a proper ussage of the network, obviously depending on the role of each user. 
 
 Using Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a participant. For the purpose of this HoL, we are going to create a new network in which there will be two participants:
 - *Founder of the network*: ***eshop***, a shop which rent assets.
