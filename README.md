@@ -1,6 +1,4 @@
 # CMS-Secured-by-Blockchain
-Use Blockchain to be aware if documents stored in a CMS has been tampered
-
 
 This HoL has been created to demonstrate how easily you can create a custom CMS enriched with a verification of non-tampering of the documents by using blockchain as a certifier of the integrity of the documents.
 
