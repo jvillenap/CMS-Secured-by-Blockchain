@@ -143,7 +143,7 @@ We are going to create the users ***cmsrsk1***, who belongs to the Risks Departm
 
 7. You should see the roles properly assgined.
 <p align="center">
-<img width="695" height="371" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-39.png"/>
+<img width="721" height="378" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-39.png"/>
 </p>
 
 8. You will be asked to send an email to the email address to the user informing the roles for which has been granted. It's up to you sending or not the email
