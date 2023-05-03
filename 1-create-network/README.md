@@ -183,12 +183,12 @@ Each enrollment must be created in the instance(s) where the user with such role
 <img width="501" height="243" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-43.png"/>
 </p>
 
-4. Set Enrollment ID as ***eshop_manager***, User ID as ***eshop_manager***, and push the ***Enroll*** button.
+4. Set Enrollment ID as ***cmsrsk001***, User ID as ***cmsrsk001***, and push the ***Enroll*** button.
 <p align="center">
-<img width="502" height="335" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-44.png"/>
+<img width="503" height="328" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-44.png"/>
 </p>
 
-All this four steps must be repited to create the enrollment ***lessee1_manager*** for the user ***lessee1_manager*** but in the REST Proxy of the participant Blockchain instance (lessee1), so accessing to the Blockchain console of such instance. 
+This last step must be repited to create the enrollments for all the three users: ***cmsrsk001***, ***cmsfin001***, and ***cmsleg001***. And in case other users from other organization were created, the enrollments for those users should be created in the REST Proxy of the blockchain instance to which they belong.
 <p align="center">
-<img width="985" height="532" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-45.png"/>
+<img width="503" height="327" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-45.png"/>
 </p>
