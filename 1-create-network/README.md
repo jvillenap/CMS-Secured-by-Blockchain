@@ -71,11 +71,10 @@ We need to join the organizations at the channel level to allow communication be
 </p>
 
 2. Fill out the form as shown and click ***Submit***.
-- Set ***rentalshop*** as your Channel Name
-- Check the boxes next to ***lessee1***
+- Set ***wedocms*** as your Channel Name
 - Select both ***peer0*** and ***peer1*** under Peers to Join Channel
 <p align="center">
-<img width="956" height="578" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-21.png"/>
+<img width="642" height="523" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-21.png"/>
 </p>
 
 3. Confirm the creation by clicking ***Yes*** in the confirmation popup.
