@@ -79,7 +79,7 @@ We need to join the organizations at the channel level to allow communication be
 
 3. Confirm the creation by clicking ***Yes*** in the confirmation popup.
 <p align="center">
-<img width="956" height="572" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-22.png"/>
+<img width="639" height="519" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-22.png"/>
 </p>
 
 4. Check that the channel table displays the new channel. Click on 'rentalshop' to view channel details.
