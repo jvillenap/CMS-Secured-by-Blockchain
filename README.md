@@ -80,7 +80,7 @@ Leveraging in Oracle Blockchain we can create in minutes an Hyperledger Fabric n
 In this Hyperledger Fabric network we will create a dedicated channel to be used only for the smartcontracts related with our use case. In my case I've named the channel ***wedocms***, and obviously the only existing participant of the network will join this channel:
 
 <p align="center">
-<img width="719" height="114" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/4-bc-channel.png"/>
+<img width="834" height="153" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/4-bc-channel.png"/>
 </p>
 
 All the administrative taks will be easily executed thanks to the Service Console present for any Oracle Blockchain instances, one for the founder, and the other for the participant:
