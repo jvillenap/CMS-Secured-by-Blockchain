@@ -67,7 +67,7 @@ We need to join the organizations at the channel level to allow communication be
 
 1. From the founder ('e-shop') console, select the ***Channels*** tab. Click ***Create a New Channel***.
 <p align="center">
-<img width="850" height="285" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-20.png"/>
+<img width="641" height="271" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-20.png"/>
 </p>
 
 2. Fill out the form as shown and click ***Submit***.
