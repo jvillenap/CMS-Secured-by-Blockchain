@@ -8,7 +8,16 @@
 <a name="Introduction"/>
 
 ## Introduction
-In this chapter we are going to create the smartcontract used to handle the entities to be stored and managed into Blockchain. Concretely there is a set of entities based in our business case:
+In this chapter we are going to create the smartcontract in which all the logic required for our business case will be placed. 
+
+First of all we need to define the entities to be stored and managed in Blockchain. Basically the entities modeled in this picture:
+<p align="center">
+<img width="737" height="223" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/3-smartcontract/images/1_WEDO_CMS_EntityRel.drawio.png"/>
+</p>
+
+
+
+used to handle the entities to be stored and managed into Blockchain. Concretely there is a set of entities based in our business case:
 
 
 by  NFT token which will be the digital representation in Blockchain of the asset to be rented by an eShop to the different lessees. Once the smatcontract gets created, we will install and deploy it into the different instances which compound the Blockchain Network created in the first chapter. 
