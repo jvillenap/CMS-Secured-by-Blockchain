@@ -87,9 +87,9 @@ We need to join the organizations at the channel level to allow communication be
 <img width="644" height="292" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
 </p>
 
-5. Note that both necessary organizations are listed.
+5. In this details page you can see all the details about the channel, like transactions saved into the blocks of the ledger, chaincodes deployed in the channel, Orderers and peers configured, organizations belonging to the channel, ...
 <p align="center">
-<img width="740" height="315" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-24.png"/>
+<img width="839" height="375" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-24.png"/>
 </p>
 
 
