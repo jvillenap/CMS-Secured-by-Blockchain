@@ -82,9 +82,9 @@ We need to join the organizations at the channel level to allow communication be
 <img width="639" height="519" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-22.png"/>
 </p>
 
-4. Check that the channel table displays the new channel. Click on 'rentalshop' to view channel details.
+4. Check that the channel table displays the new channel. Click on ''rentalshop'' to view channel details.
 <p align="center">
-<img width="948" height="308" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
+<img width="1288" height="584" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
 </p>
 
 5. Note that both necessary organizations are listed.
