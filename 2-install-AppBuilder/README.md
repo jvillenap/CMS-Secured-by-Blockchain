@@ -2,7 +2,7 @@
 
 The creation of an Hyperledger Fabric (HLF) Smartcontract is somehow a quite complex task, you need to know all the intrinsics about HLF, you need to know how to code in Java, Typescript, or GoLang, and you also need to know how to deploy and manage the whole lifecycle of the Smartcontract project.
 
-AppBuilder has been created to simplify the creation of an smartcontract project, in fact AppBuilder is a low-code tool which is able to create the whole Chaincode project from scratch. A part of that, AppBuilder will also help you in the testing phase, packaging of the project, and also, if you want, in the deployment of the chaincode locally in your own laptop for unitary testing, or remotely into a real Oracle Blockchain Network.
+AppBuilder has been created to simplify the creation of an smartcontract project, in fact AppBuilder is a low-code tool which is able to create the whole Chaincode project from scratch, excluding obviously any custom code required by your business case. A part of that, AppBuilder will also help you in the testing phases, packaging of the project, and also, in the deployment of the chaincode locally in your own PC for unitary testing, or remotely into a real Hyperledger Fabric Network.
 
 <p align="center"  alt="App Builder in VSCode">
 <img width="810" height="390" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/02-Prepare-Dev-Environment/images/2-dev-2-0.png"/>
