@@ -87,50 +87,18 @@ We need to join the organizations at the channel level to allow communication be
 <img width="644" height="292" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
 </p>
 
-5. In this details page you can see all the details about the channel, like transactions saved into the blocks of the ledger, chaincodes deployed in the channel, Orderers and peers configured, organizations belonging to the channel, ...
+5. In this details page you can see all the details about the channel, like transactions saved into the blocks of the ledger, chaincodes deployed in the channel, configured Orderers and Peers, organizations belonging to the channel, ...
 <p align="center">
 <img width="839" height="375" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-24.png"/>
 </p>
 
 
-<a name="setAnchorPeers"/>
-
-## Set Anchor Peers
-
-Each member using a channel (whether founder or participant) must designate at least one anchor peer. Anchor peers are primary network contact points, and are used to discover and communicate with other network peers on the channel.
-
-1. Go to the founder ***eshop*** console and select the Channels tab. Click ***rentalshop*** under the channel table.
-<p align="center">
-<img width="786" height="309" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-27.png"/>
-</p>
-
-2. Click ***Peers*** in the left-hand pane.
-<p align="center">
-<img width="760" height="353" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-28.png"/>
-</p>
-
-3. Locate ***peer0*** and ensure that the ***Anchor Peer*** box is selected.
-<p align="center">
-<img width="758" height="322" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-29.png"/>
-</p>
-
-4. Click ***Set Anchor Peer*** to save changes.
-<p align="center">
-<img width="758" height="325" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-30.png"/>
-</p>
-
-Repeat for all these steps for the participant organization ***lessee1***.
-<p align="center">
-<img width="762" height="325" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-31.png"/>
-</p>
-
-
 <a name="createAcconts"/>
 
-## Create Participant Accounts
-We are going to use Oracle Identity Cloud (IDCS) to create at least one user in each organization to have the ownership of the FT and NFT tokens. To each of those users an account will be created to hold in it the tokens they own.
+## Create User Accounts
+We are going to use Oracle Identity Cloud (IDCS) to create at least one user for each of the departments among the expedients can be interchanged. To each of those users an account will be created to hold in it the different expedients they own.
 
-We are going to create the users ***eshop_manager*** and ***lessee1_manager***, and then assign them roles to control usage of their own OBP instances: 'eshop' for the eshop_manager user, and 'lessee1' for the lessee1_manager user.
+We are going to create the users ***cmsrsk1***, who belongs to the Risks Department, the user ***cmsfin001*** who belongs to the Finance Department, and the user ***cmsleg001*** who belongs to the Legal Department.
 
 1. From the OCI console, select the burger menu icon in the top left-hand corner and click on ***Identity & Security*** menu option, and into this option, select the ***Federation*** option from the ***Identity*** section.
 <p align="center">
