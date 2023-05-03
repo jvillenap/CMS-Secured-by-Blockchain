@@ -138,7 +138,7 @@ We are going to create the users ***cmsrsk1***, who belongs to the Risks Departm
 | cmsleg001       | org1-....     | ADMIN, REST_CLIENT |
 
 <p align="center">
-<img width="691" height="373" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-38.png"/>
+<img width="950" height="466" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-38.png"/>
 </p>
 
 7. You should see the roles properly assgined.
