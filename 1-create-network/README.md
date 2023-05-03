@@ -4,8 +4,7 @@
 [Introduction](#Introduction)  
 [Prerequisites](#Prerequisites)  
 [Creation of the Founder instance](#createFounder)  
-[Create a Channel](#channelCreate)  
-[Set Anchor Peers](#setAnchorPeers)  
+[Create a Channel](#channelCreate)
 [Create User Accounts](#createAcconts)  
 [Create Enrollments in the REST Proxy nodes](#createEnrollments)  
 
