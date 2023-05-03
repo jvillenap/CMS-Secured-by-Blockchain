@@ -43,17 +43,17 @@ As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies
 3. Press the button Create Blockchain Platform.
 ![Press the button Create Blockchain Platform](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-3.png "Press the button Create Blockchain Platform")
 
-4. Give your platform a Display Name (e.g. 'eshop'), optionally add a Description, and keep the remaining default selections, as they are the settings to create a Founder instance, which will be the founder of a new Hyperledger Fabric Network, and using the standard shape, which has exactly the same functionality as the Enterprise shape but at a lower cost, but perfectly valid for development work. Click 'Create'.
+4. Give your platform a Display Name (e.g. ***org1***), optionally add a Description, and keep the remaining default selections, as they are the settings to create a Founder instance, which will be the founder of a new Hyperledger Fabric Network, and using the standard shape, which has exactly the same functionality as the Enterprise shape but at a lower cost, but perfectly valid for development work. Click ***Create***.
 <p align="center">
 <img width="727" height="848" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-4.png"/>
 </p>
 
-5. Once pushed the 'Create' button, the creation of the instance for this Organization (org1) has been submited, and will be ready in a few minutes:
+5. Once pushed the ***Create*** button, the creation of the instance for this Organization (org1) has been submited, and will be ready in a few minutes:
 <p align="center">
 <img width="834" height="415" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-5.png"/>
 </p>
 
-6. When the Founder instance gets created, you will be able to access to the Oracle Blockchain console for this instance by pushing the 'Service Console' button:
+6. When the Founder instance gets created, you will be able to access to the Oracle Blockchain console for this instance by pushing the ***Service Console*** button:
 <p align="center">
 <img width="833" height="417" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-6.png"/>
 </p>
@@ -65,7 +65,7 @@ As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies
 
 We need to join the organizations at the channel level to allow communication between the founder and the participant.
 
-1. From the founder ('org1') console, select the ***Channels*** tab. Click ***Create a New Channel***.
+1. From the founder (***org1***) console, select the ***Channels*** tab. Click ***Create a New Channel***.
 <p align="center">
 <img width="641" height="271" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-20.png"/>
 </p>
@@ -82,9 +82,9 @@ We need to join the organizations at the channel level to allow communication be
 <img width="639" height="519" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-22.png"/>
 </p>
 
-4. Check that the channel table displays the new channel. Click on ''rentalshop'' to view channel details.
+4. Check that the channel table displays the new channel. Click on ***wedocms*** to view channel details.
 <p align="center">
-<img width="1288" height="584" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
+<img width="644" height="292" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-23.png"/>
 </p>
 
 5. Note that both necessary organizations are listed.
