@@ -4,13 +4,10 @@
 [Introduction](#Introduction)  
 [Prerequisites](#Prerequisites)  
 [Creation of the Founder instance](#createFounder)  
-[Creation of the Participant instance](#createParticipant)  
-[Add The Participant Organizations to the Blockchain Network](#partJoinNwk)  
 [Create a Channel](#channelCreate)  
-[Join Participant Organization - Peer Nodes to Channel](#joinPeersChannel)  
 [Set Anchor Peers](#setAnchorPeers)  
-[Create Participant Accounts](#createAcconts)  
-[Create Enrollments - Perform on All REST Proxy nodes](#createEnrollments)  
+[Create User Accounts](#createAcconts)  
+[Create Enrollments in the REST Proxy nodes](#createEnrollments)  
 
 <a name="Introduction"/>
 
@@ -22,7 +19,8 @@ For the creation of an Hyperledger Fabric network based in Oracle Blockchain, yo
 
 For simplicity in this HoL we are going to use the first option, the Cloud Version. 
 
-We are going to create two instances, the first instance will be the founder of a new Hyperledger Fabric network, acting as the owner of the assets which will be represented as NFTs and will be available to be rented. And we will also create a second instance which will be a new participant attached to the network, who will represent one of the lessees of the assets.
+Also for simplicity, we are going to create a single instance HLF network, as per the use case we can show the functionality within one single organization belonging to the network. In case you want to extend the interchangeability of the expedients among departments from different organizations, you can add a new participant member to the network following the instructions in the following link:
+- [How to create an HLF network with a founder instance, and a participant instance](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/01-Create-The-Network/README.md "How to create an HLF network with a founder instance, and a participant instance").
 
 As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies required to provision and manage a blockchain network: compute, storage, containers, identity services, event services, and management services. Oracle Blockchain Platform also includes the blockchain network console to support integrated operations. This helps you start developing applications within minutes.
 
@@ -60,80 +58,6 @@ As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies
 <img width="833" height="417" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-6.png"/>
 </p>
 
-<a name="createParticipant"/>
-
-## Creation of the Participant instance
-For the creation of a first participant, you must follow the same steps as per the founder instance, but stating in the creation page that this is an instance which is going to ***Join an Existing Network***.
-<p align="center">
-<img width="721" height="846" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-7.png"/>
-</p>
-
-Once this participant instance gets created, you will be able to access to the Oracle Blockchain console for this second instance by pushing the 'Service Console' button:
-<p align="center">
-<img width="833" height="417" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-8.png"/>
-</p>
-
-<a name="partJoinNwk"/>
-
-## Add The Participant Organizations to the Blockchain Network
-First time you access to a participant instance Blockchain service console, instead of the default Dashboard, you will see a wizard to help you to join an existing Hyperledger Fabric Network. It must be done by exporting their settings and importing them into the founder. It is quite clearly explained in the wizard:
-
-1. Click on the step ***2*** to start the joining process:
-<p align="center">
-<img width="833" height="338" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-9.png"/>
-</p>
-
-2. Clicking on the ***Export*** button, the certificates from this participant instance are downloaded in your PC:
-<p align="center">
-<img width="830" height="314" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-10.png"/>
-</p>
-
-3. Go to the Service Console of the founder instance, and navigate to the ***Network*** tab:
-<p align="center">
-<img width="829" height="470" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-11.png"/>
-</p>
-
-4. Push the ***Add Organization*** Button:
-<p align="center">
-<img width="830" height="388" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-12.png"/>
-</p>
-
-5. Into the ***Add Organization*** popup push the link ***Upload Organization Certificates***:
-<p align="center">
-<img width="502" height="246" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-13.png"/>
-</p>
-
-6. Select the proviously downoloaded certifices from the participant instance, and push the ***Add*** button:
-<p align="center">
-<img width="502" height="248" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-14.png"/>
-</p>
-
-7. A message stating the Organization has been succesfully added should be shown, in that case we can continue by exporting the Orderer Settings from this same screen by pushing the ***Export Orderer Settings*** button, It will download in our PC the order settings from the Founder. Once downloaded, we can push the ***Finish*** button:
-<p align="center">
-<img width="502" height="248" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-15.png"/>
-</p>
-
-8. Going back to the participant instance (lessee in my case), we can continue with the next step of the wizard, it is push the step number ***3***, and push the ***Upload Orderer Settings***:
-<p align="center">
-<img width="829" height="470" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-16.png"/>
-</p>
-
-9. In case a message stating the ordering service might be using an older version of OBP, click on the chekbox to execute the import enyhow. Aftar clicking the checkbox, push the ***Finish*** button:
-<p align="center">
-<img width="829" height="478" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-17.png"/>
-</p>
-
-10. If everything works, you should get a message stating the Orderer attributes have been updated successfully, so you can push the step number ***4***, and you will be forwarded to the dashboard where you will see how the lessee participant is now part of the network created by the founder:
-<p align="center">
-<img width="840" height="500" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-18.png"/>
-</p>
-
-11. Navigating to the ***Network*** tab you should see both organizations attached to the network:
-<p align="center">
-<img width="827" height="454" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-19.png"/>
-</p>
-
-If more participants should join the network, you can repeat these set of steps for the new participant.
 
 <a name="channelCreate"/>
 
@@ -169,20 +93,6 @@ We need to join the organizations at the channel level to allow communication be
 <img width="740" height="315" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-24.png"/>
 </p>
 
-<a name="joinPeersChannel"/>
-
-## Join Participant Organization - Peer Nodes to Channel
-
-You're almost done setting up your blockchain network! Simply use the participant instance to join the channel created in the previous step.
-1. Go to the ***lessee1*** console and select the Channels tab. Click the hamburger icon on the right-hand side of the 'rentalshop' row and select 'Join Peers to Channel.'
-<p align="center">
-<img width="787" height="373" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-25.png"/>
-</p>
-
-2. Select both ***peer0*** and ***peer1*** to join the channel and click ***Join***.
-<p align="center">
-<img width="796" height="274" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-26.png"/>
-</p>
 
 <a name="setAnchorPeers"/>
 
@@ -282,7 +192,7 @@ We are going to create the users ***eshop_manager*** and ***lessee1_manager***, 
 
 <a name="createEnrollments"/>
 
-## Create Enrollments - Perform on All REST Proxy nodes
+## Create Enrollments in the REST Proxy nodes
 Oracle Blockchain Platform supports enrollments to the REST proxy. These enrollments are used in chaincodes where FT or NFT tokens exist, to ensure the identities of the user completing a transaction. To do this, when you add enrollments for token use cases, specify a user ID for each enrollment (founder ID in this case), and specify one and only one user for each enrollment.
 
 Each enrollment must be created in the instance(s) where the user with such role are allowed to execute transactions trhough the REST Proxy on that Blockchain instance, so enrollment eshop_manager assigned to the user eshop_manager needs to be created in the REST Proxy node of the eshop (founder) instance, and the enrollment lessee1_manager assigned to the user lessee1_manager needs to be created in the REST Proxy node of the lessee1 (participant) instance.
