@@ -129,12 +129,13 @@ We are going to create the users ***cmsrsk1***, who belongs to the Risks Departm
 <img width="695" height="373" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-37.png"/>
 </p>
 
-6. Depending on the user you have just created, you will give to it grants based on the following table, and after assign the correct roles, push the ***Update Instance Settings***:
+6. As the HLF network is a single organization networ, all the users will belong to the same organization, so all of them will be granted to the single blockchain instance we have created. In case we add more instances to the network, each existing organization/instance will have its own users. After assign the correct roles, push the ***Update Instance Settings*** Button:
 
 | username        | Instance      | Roles              |
 | --------------- |:-------------:| ------------------ |
-| eshop_manager   | eshop-....    | ADMIN, REST_CLIENT |
-| lessee1_manager | lessee1-....  | ADMIN, REST_CLIENT |
+| cmsrsk001       | org1-....     | ADMIN, REST_CLIENT |
+| cmsfin001       | org1-....     | ADMIN, REST_CLIENT |
+| cmsleg001       | org1-....     | ADMIN, REST_CLIENT |
 
 <p align="center">
 <img width="691" height="373" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-38.png"/>
