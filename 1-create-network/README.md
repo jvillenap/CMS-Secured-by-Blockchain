@@ -48,7 +48,7 @@ As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies
 <img width="727" height="848" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-4.png"/>
 </p>
 
-5. Once pushed the 'Create' button, the creation of the instance for this Organization (e-shop) has been submited, and will be ready in a few minutes:
+5. Once pushed the 'Create' button, the creation of the instance for this Organization (org1) has been submited, and will be ready in a few minutes:
 <p align="center">
 <img width="834" height="415" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-5.png"/>
 </p>
@@ -65,7 +65,7 @@ As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies
 
 We need to join the organizations at the channel level to allow communication between the founder and the participant.
 
-1. From the founder ('e-shop') console, select the ***Channels*** tab. Click ***Create a New Channel***.
+1. From the founder ('org1') console, select the ***Channels*** tab. Click ***Create a New Channel***.
 <p align="center">
 <img width="641" height="271" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-20.png"/>
 </p>
