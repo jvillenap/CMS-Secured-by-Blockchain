@@ -116,7 +116,7 @@ We are going to create the users ***cmsrsk1***, who belongs to the Risks Departm
 
 3. Set as username the value you want to use for login into the console or as the authorization username to execute the REST APIs of our smartcontract. In the email field set the email of your OCI account, so you will receive the email to reset the password for this user, and push the ***Create*** button:
 <p align="center">
-<img width="920" height="574" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-35.png"/>
+<img width="652" height="331" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/images/1-obp-2-35.png"/>
 </p>
 
 4. In the next step you are asked to assign roles to recently created user, to do that push the ***Assign Roles*** Button.
