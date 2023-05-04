@@ -47,8 +47,8 @@ If you are interested in know a little bit more about NFTs, check the [Using NFT
 # What we are going to use to develop this HoL
 
 <details>
-  <summary>1***Oracle Blockchain***</summary>
-
+  <summary>Oracle Blockchain</summary>
+##Oracle Blockchain
 Leveraging in Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a new participant. For the purpose of this HoL, we are going to create the most simple network where there is one single participant, obviously the founder of the network. This single organization network, does not have too much sense, but after the initial creation it can be easily extended by adding new organizations to the network. So, the topology of the network will be something like: 
 
 <p align="center">
@@ -70,8 +70,8 @@ All the administrative taks will be easily executed thanks to the Service Consol
 
 </details>
 <details>
-  <summary>2.- Oracle Blockchain AppBuilder</summary>
-
+  <summary>Oracle Blockchain AppBuilder</summary>
+##Oracle Blockchain AppBuilder
 In the other hand, Oracle App Builder is a low-code development tool created by Oracle to help you in the development of your Smartcontracts, abstracting you from all the intrinsic technical complexities, even more when you need to create a NFT token. So, leveraging Oracle Blockchain and Oracle AppBuilder you will reduce considerably the time to market for any project in which NFTs and/or FTs would be needed.
 
 <p align="center">
@@ -86,8 +86,8 @@ AppBuilder will help you to reduce considerably the complexity of the developmen
 
 </details>
 <details>
-  <summary>3.- Oracle Visul Builder Studio</summary>
-
+  <summary>Oracle Visul Builder Studio</summary>
+##Oracle Visul Builder Studio
 Oracle Visual Builder Studio allows you to rapidly create and extend applications using a visual development environment with integrated agile and collaborative development, version control, and continuous delivery automation.
 In this HoL we will use this tool only to configure and deploy a precreated web aplication used as a main application to manage our documents. This application is the one who will interact with blockchain and the buckets where documents will be stored.
 
@@ -97,8 +97,8 @@ If you want to know more about the low-code development tool used to create the 
 
 </details>
 <details>
-  <summary>4.- Oracle Storage Buckets</summary>
-
+  <summary>Oracle Storage Buckets</summary>
+##Oracle Storage Buckets
 Oracle Cloud Infrastructure (OCI) has a huge catalog of storage services. In this HoL we are going to use one of this services, Oracle Object Storage buckets, where the content of our documents will be stored, while its metadata will be stored and managed in blockchain.
 Documents will be stored and retrieved directly by our Web Application, which will make use of the API REST offered by OCI Storage buckets. 
 </details>
