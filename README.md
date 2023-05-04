@@ -43,7 +43,7 @@ There will be two different roles to access to the documents through the applica
 
 If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first Smartcontract handling Fungible and Non-Fungible tokens on Hyperledger Fabric, and test them really easily.
 
-
+---
 # What we are going to use to develop this HoL
 
 ## Oracle Blockchain
@@ -93,7 +93,7 @@ If you want to know more about the low-code development tool used to create the 
 Oracle Cloud Infrastructure (OCI) has a huge catalog of storage services. In this HoL we are going to use one of this services, Oracle Object Storage buckets, where the content of our documents will be stored, while its metadata will be stored and managed in blockchain.
 Documents will be stored and retrieved directly by our Web Application, which will make use of the API REST offered by OCI Storage buckets. 
 
-
+---
 # Steps to execute the HoL
 
 To implement a solution like the one exposed in this HoL, there are three main areas to work:
