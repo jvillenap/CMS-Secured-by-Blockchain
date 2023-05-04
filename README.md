@@ -2,7 +2,7 @@
 
 #### Table of Contents  
 [Introduction](#Introduction)  
-[What we are going to use to develop this HoL](#Products)  
+[What do we need to develop this HoL?](#Products)  
 [Steps to execute the HoL](#Steps)  
 
 <a name="Introduction"/>
@@ -58,7 +58,7 @@ If you are interested in know a little bit more about NFTs, check the [Using NFT
 
 ---
 
-## What we are going to use to develop this HoL
+## What do we need to develop this HoL?
 
 <details>
   <summary>Oracle Blockchain</summary>
@@ -126,7 +126,9 @@ Documents will be stored and retrieved directly by our Web Application, which wi
 </details>
 
 <a name="Steps"/>
+
 ---
+
 ## Steps to execute the HoL
 
 To implement a solution like the one exposed in this HoL, there are three main areas to work:
