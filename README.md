@@ -1,5 +1,8 @@
 # CMS-Secured-by-Blockchain
 
+---
+## Introduction
+
 This HoL has been created to demonstrate how easily you can create a custom CMS enriched with a verification of non-tampering of the documents by using blockchain as a certifier of the integrity of the documents.
 
 The whole solution is created using just three Oracle Cloud Services we depict in the following diagram:
@@ -44,7 +47,7 @@ There will be two different roles to access to the documents through the applica
 If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first Smartcontract handling Fungible and Non-Fungible tokens on Hyperledger Fabric, and test them really easily.
 
 ---
-# What we are going to use to develop this HoL
+## What we are going to use to develop this HoL
 
 <details>
   <summary>Oracle Blockchain</summary>
@@ -112,7 +115,7 @@ Documents will be stored and retrieved directly by our Web Application, which wi
 </details>
 
 ---
-# Steps to execute the HoL
+## Steps to execute the HoL
 
 To implement a solution like the one exposed in this HoL, there are three main areas to work:
    1. Blockchain infrastructure preparation.  
