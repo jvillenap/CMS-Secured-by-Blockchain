@@ -8,7 +8,7 @@
 <a name="Introduction"/>
 
 ## Introduction
-In this chapter we are going to create the smartcontract in which all the logic required for our business case will be placed. 
+In this chapter we are going to explain the steps to create the smartcontract in which all the logic required for our business case will be placed. 
 
 First of all we need to define the entities to be stored and managed in Blockchain. Basically the entities modeled in this picture:
 <p align="center">
