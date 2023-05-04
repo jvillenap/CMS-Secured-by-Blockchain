@@ -46,6 +46,14 @@ If you are interested in know a little bit more about NFTs, check the [Using NFT
 
 Steps to execute the HoL
 ========================
+To implement a solution like the one exposed in this HoL, there are three main areas to work:
+<p align="center">
+<img width="371" height="392" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/3-bc_topology.png"/>
+</p>
+   1. Blockchain infrastructure preparation
+   2. Smartcontract Creation
+   3. Development of application which make use of our Smartcontract
+
 First of all we will create an Hyperledger Fabric network, which initially will be composed of one single organization, but can be easily scaled to as many members as you can. You can follow the instructions in the first labs of the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL to see how you can do it.
 
 Then, we will proceed to create the smartcontract to handle the logic needed to persist and manage into blockchain the entities required by our business case. 
@@ -54,7 +62,7 @@ Once the smartcontract gets created, we will install and deploy it into our bloc
 
 At this point, the smartcontract methods have already been published through the API Gateway of our Oracle Blockchain instance, so they are ready to be used by the client applications, in our case the Web Application we have already created with VBCS, and we will provide in this chapter.
 
-Last step is the creation of the OCI Storage Bucket, configuration of the VBCS application, and deploy it.
+Next to last step is the creation of the OCI Storage Bucket where the documents itself will be stored, and last step is reconfiguration of the VBCS application provided as interface to use our smartcontract, and deploy it into our tenancy.
 
 Here you have the links to each of the labs to fulfill this HoL:  
 
