@@ -78,7 +78,6 @@ Here you have the links to each of the labs to fulfill this HoL:
 
 # What we are going to use to develop this HoL
 
----
 ## Oracle Blockchain
 Leveraging in Oracle Blockchain we can create in minutes an Hyperledger Fabric network as a founder, or join whatever existing Hyperledger Fabric network as a new participant. For the purpose of this HoL, we are going to create the most simple network where there is one single participant, obviously the founder of the network. This single organization network, does not have too much sense, but after the initial creation it can be easily extended by adding new organizations to the network. So, the topology of the network will be something like: 
 
@@ -99,7 +98,7 @@ All the administrative taks will be easily executed thanks to the Service Consol
 <img width="960" height="540" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/5-bc-adminconsole.png"/>
 </p>
 
----
+
 ## Oracle Blockchain AppBuilder  
 In the other hand, Oracle App Builder is a low-code development tool created by Oracle to help you in the development of your Smartcontracts, abstracting you from all the intrinsic technical complexities, even more when you need to create a NFT token. So, leveraging Oracle Blockchain and Oracle AppBuilder you will reduce considerably the time to market for any project in which NFTs and/or FTs would be needed.
 
@@ -113,7 +112,7 @@ AppBuilder will help you to reduce considerably the complexity of the developmen
 <img width="814" height="392" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/7-appbuilder2.png"/>
 </p>
 
----
+
 ## Oracle Visul Builder Studio
 ---
 ## Oracle Storage Buckets
