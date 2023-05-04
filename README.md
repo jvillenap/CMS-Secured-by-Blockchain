@@ -82,7 +82,12 @@ AppBuilder will help you to reduce considerably the complexity of the developmen
 
 
 ## Oracle Visul Builder Studio
+Oracle Visual Builder Studio allows you to rapidly create and extend applications using a visual development environment with integrated agile and collaborative development, version control, and continuous delivery automation.
+In this HOL we will use this tool only to configure and deploy a precreated web aplication used as a main application to manage our documents. This application is the one who will interact with blockchain and the buckets where docuemnts will be stored.
 
+If you want to know more about Visual Builder Studio please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
+
+If you want to know more about the low-code development tool used to create the web aplication, please click [here](https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/index.html) 
 
 ## Oracle Storage Buckets
 
