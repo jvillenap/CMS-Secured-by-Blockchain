@@ -5,10 +5,10 @@
 [What we are going to use to develop this HoL](#Products)  
 [Steps to execute the HoL](#Steps)  
 
----
 <a name="Introduction"/>
 ---
-## Introduction
+
+## Introduction  
 
 This HoL has been created to demonstrate how easily you can create a custom CMS enriched with a verification of non-tampering of the documents by using blockchain as a certifier of the integrity of the documents.
 
