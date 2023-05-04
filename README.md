@@ -47,9 +47,9 @@ If you are interested in know a little bit more about NFTs, check the [Using NFT
 Steps to execute the HoL
 ========================
 To implement a solution like the one exposed in this HoL, there are three main areas to work:
-   1. Blockchain infrastructure preparation  
-   2. Smartcontract Creation  
-   3. Development of application which make use of our Smartcontract  
+   1. Blockchain infrastructure preparation.  
+   2. Development and Deployment of the Smartcontract.  
+   3. Creation of the application(s) which will make use of our Smartcontract.  
   <p align="center">
 <img width="584" height="532" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/8-bc-arquitecture.png"/>
 </p>
