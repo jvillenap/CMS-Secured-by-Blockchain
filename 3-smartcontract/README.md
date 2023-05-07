@@ -15,14 +15,11 @@ First of all we need to define the entities to be stored and managed in Blockcha
 <img width="737" height="223" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/3-smartcontract/images/1_WEDO_CMS_EntityRel.drawio.png"/>
 </p>
 
+In the Smartcontract will be defined all these entities and their relations, and also all the logic required to manage and interact with the entities, and also to persist them into the blockchain ledger.
 
+As already explained, the ***expedient*** will be represented as an NFT token, so it will be developed and initialized as and NFT. The other dependent entinties (Docuemnts and Properties), are standard entities and are child entities of the expedient, so it will be developed as standrd entieties with out the need of initialize in any sense.
 
-used to handle the entities to be stored and managed into Blockchain. Concretely there is a set of entities based in our business case:
-
-
-by  NFT token which will be the digital representation in Blockchain of the asset to be rented by an eShop to the different lessees. Once the smatcontract gets created, we will install and deploy it into the different instances which compound the Blockchain Network created in the first chapter. 
-
-NFT tokens most of the times are created as digital twins of physical or digital assets, so NFT must reflect what is occurring to the physical or digital asset and be tracked accordingly to its reality. In this sense the NFT gives an extra value to the physical/digital asset, as the information provided by the NFT representing the asset is information which can not be refused as per the contribution of the blockchain technology to it.
+Once the smatcontract gets created, we will install and deploy it in the Blockchain Network created in the first chapter.
 
 <a name="CreationNFTchaincode"/>
 
