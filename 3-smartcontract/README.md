@@ -146,7 +146,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
 
 5. If everything goes fine, we should se a green message in the wizard. If this is not the case we should check the output generated during the creation of the scaffold of the project:
 <p align="center">
-<img width="611" height="436" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-5.png"/>
+<img width="493" height="422" src="./images/4-nft-2-5.png"/>
 </p>
 
 6. In the ***CHAINCODES*** section we should see the new generated project (in my case: eShopDeviceNFT). Clicking in the project, we should be able to navigate to the src folder inside the project, where the source code has been generated:
