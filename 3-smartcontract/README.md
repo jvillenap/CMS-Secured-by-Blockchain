@@ -141,7 +141,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
  - **Location/Domain**: Depending on the selected language you will be prompted to define the location where the project will be placed for the Typescript language, or the domain for the GoLang language.  
 
 <p align="center">
-<img width="601" height="408" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-4.png"/>
+<img width="479" height="406" src="./images/4-nft-2-4.png"/>
 </p>
 
 5. If everything goes fine, we should se a green message in the wizard. If this is not the case we should check the output generated during the creation of the scaffold of the project:
