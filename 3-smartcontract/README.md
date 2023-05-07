@@ -230,6 +230,6 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
 
 7. If the deployment succeed, after closing the installation and deployment, you should see how the package has been installed in the two peers of the instance, and also has been deployed in one of the channels:
 <p align="center">
-<img width="761" height="285" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-14.png"/>
+<img width="960" height="421" src="./images/4-nft-2-14.png"/>
 </p>
 
