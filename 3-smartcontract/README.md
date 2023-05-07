@@ -199,7 +199,7 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
 
 4. Select the ***Advanced Deployment*** option:
 <p align="center">
-<img width="614" height="311" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-11.png"/>
+<img width="614" height="311" src="./images/4-nft-2-11.png"/>
 </p>
 
 5. Set all the values to Install the chaincode package into the Founder instance and push the ***Next*** button:
