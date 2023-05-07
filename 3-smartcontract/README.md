@@ -126,7 +126,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
 
 2. Select the specification file just created, and push the button ***Import Specification***.
 <p align="center">
-<img width="848" height="300" src="./images/4-nft-2-2.png"/>
+<img width="855" height="380" src="./images/4-nft-2-2.png"/>
 </p>
 
 3. To be able to create a new chaincode project based on the imported specification file, we must push the plus icon (***+*** on the upper-right corner of the ***CHAINCODES*** frame of AppBuilder. It will open the ***Create Chaincode*** wizard: 
