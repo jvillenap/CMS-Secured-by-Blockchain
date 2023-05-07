@@ -131,7 +131,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
 
 3. To be able to create a new chaincode project based on the imported specification file, we must push the plus icon (***+*** on the upper-right corner of the ***CHAINCODES*** frame of AppBuilder. It will open the ***Create Chaincode*** wizard: 
 <p align="center">
-<img width="960" height="675" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-3.png"/>
+<img width="1000" height="825" src="./images/4-nft-2-3.png"/>
 </p>
 
 4. In the ***Create Chaincode*** wizard you must specify the following details, and after specifying the details push the ***Create*** button:
