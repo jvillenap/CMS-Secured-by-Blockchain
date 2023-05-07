@@ -178,8 +178,7 @@ At this point the chaincode is ready to be used, so we can deploy and test the c
 
 Once you have tested locally the chaincode, we can proceed by deploying it in the real network we previously created using the Oracle Blockchain Service Console. The summarize of the actions to be executed are:
  - Package the chaincode project.
- - Install and Deploy the chaincode package into the founder instance.
- - Install and Deploy the chaincode package into the participant instance.
+ - Install and Deploy the chaincode package into the single instance (founder).
 
 1. First of all we must create the deployable package from the chaincode project. From Visual Studio, push the right button on top of the name of the chaincode project, from the popup menu select the ***Package*** option, and select the directory to save the chaincode package file:
 <p align="center">
@@ -187,7 +186,7 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
 </p>
 
 2. Now we are going to access to the ***Oracle Blockchain Service Console*** to install and deploy the chaincode package into the Founder instance:
-   - https://eshop-TenancyName-RegionName.blockchain.ocp.oraclecloud.com:7443/
+   - https://org1-RegionName.blockchain.ocp.oraclecloud.com:7443/
      -  note: Remember how you can get the Oracle Blockchain Services Console URL:
         - In the OCI services menu, select ***Developer Services*** and click on ***Blockchain Platform***
         - Ensure that the right Compartment is selected and click on the founder instance.
