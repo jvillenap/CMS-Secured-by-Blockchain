@@ -143,11 +143,11 @@ First of all we will create an Hyperledger Fabric network, which initially will 
 
 Then, we will proceed to create the smartcontract to handle the logic needed to persist and manage into blockchain the entities required by our business use case. 
 
-Once the smartcontract gets created, we will install and deploy it into our blockchain network, and create the enrolments, configure the accounts who can own the NFT token, and initialize the NFT token!!!
+Once the smartcontract project gets created, we will install and deploy it into the blockchain network we created before, then we will configure the accounts, enrollments, and finally we will execute the initialization of the smartcontract and its NFTs.
 
-At this point, the smartcontract methods have already been published through the API Gateway of our Oracle Blockchain instance, so they are ready to be used by the client applications, in our case the Web Application we have already created with VBCS, and we will provide in this chapter.
+At this point, the smartcontract methods have already been published through the API Gateway of our Oracle Blockchain instance, so they are ready to be used by the client applications, in our case the Web Application we have already created with VBCS, and we will provide in the corresponding chapter of the HoL.
 
-Next to last step is the creation of the OCI Storage Bucket where the documents itself will be stored, and last step is reconfiguration of the VBCS application provided as interface to use our smartcontract, and deploy it into our tenancy.
+Next to last step is the creation of the OCI Storage Bucket where the documents itself will be stored, and finally, last step is reconfiguration the provided VBCS application to point to our newly created Blockchain Network and the new bucket configured in our tenant. Once all the configuration is fine, application will be deployed into our tenancy.
 
 Here you have the links to each of the labs to fulfill this HoL:  
 
