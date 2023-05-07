@@ -101,7 +101,7 @@ customMethods:
 
 ```
 
-You can download this specification file from [WEDOCMS.yml](./src/WEDCMS.yml). 
+You can download this specification file from [WEDOCMS.yml](./src/WEDOCMS.yml). 
 
 In this specification file, in the first entity defined (expedientNFT) you can see all the sections and attributes for a representation of an NFT token. Just as a first overview of the sections defined in the file: 
 - ***Assets***: Place where the different assets (standard entities, FTs, NFTs) are defined. Inside each of the assets we can distingish different sections which can vary depending on the kind of represented asset. For NFTs and FTs these are the different subsections:
@@ -121,7 +121,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
 
 1. If the Specification File has been created outside of App Builder, first of all we will need to import the Specification file into AppBuilder. Push the three dots (***...*** on the upper-right corner of the ***SPECIFICATIONS*** frame of AppBuilder, and from the popup click in the ***Import Specification***: 
 <p align="center">
-<img width="1024" height="718" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-1.png"/>
+<img width="1024" height="718" src="./images/4-nft-2-1.png"/>
 </p>
 
 2. Select the specification file just created, and push the button ***Import Specification***.
