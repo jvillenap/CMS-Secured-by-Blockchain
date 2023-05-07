@@ -194,7 +194,7 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
 
 3. Navigate to the ***Chaincode*** tab, and push the ***Deploy a New Chaincode*** button:
 <p align="center">
-<img width="773" height="402" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-10.png"/>
+<img width="1072" height="382" src="./images/4-nft-2-10.png"/>
 </p>
 
 4. Select the ***Advanced Deployment*** option:
