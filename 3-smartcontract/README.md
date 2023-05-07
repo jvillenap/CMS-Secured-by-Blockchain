@@ -225,7 +225,7 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
    - **Endorsement Policy**: You can specify Endorsment policies during deployment, but for the purpose of this HoL we do not need them.
    - **Private Data Collection**: You can set Private Data Collections, but for the purpose of this HoL we do not need them.
 <p align="center">
-<img width="982" height="510" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/04-Creation-and-Deployment-of-an-NFT-SmartContract/images/4-nft-2-13.png"/>
+<img width="1031" height="590" src="./images/4-nft-2-13.png"/>
 </p>
 
 7. If the deployment succeed, after closing the installation and deployment, you should see how the package has been installed in the two peers of the instance, and also has been deployed in one of the channels:
