@@ -141,7 +141,7 @@ To implement a solution like the one exposed in this HoL, there are three main a
 
 First of all we will create an Hyperledger Fabric network, which initially will be composed of one single organization, but can be easily scaled to as many members as you need. You can follow the instructions in the first labs of the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL to see how you can do it.
 
-Then, we will proceed to create the smartcontract to handle the logic needed to persist and manage into blockchain the entities required by our business case. 
+Then, we will proceed to create the smartcontract to handle the logic needed to persist and manage into blockchain the entities required by our business use case. 
 
 Once the smartcontract gets created, we will install and deploy it into our blockchain network, and create the enrolments, configure the accounts who can own the NFT token, and initialize the NFT token!!!
 
