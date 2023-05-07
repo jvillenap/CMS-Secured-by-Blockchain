@@ -1,16 +1,4 @@
-  //-----------------------------------------------------------------------------
-    
-  /**
-   *
-   * BDB sql rich queries can be executed in OBP CS/EE.
-   * This method can be invoked only when connected to remote OBP CS/EE network.
-   *
-   */
-  @Validator(yup.string())
-  public async executeQuery(query: string) {
-    const result = await this.query(query);
-    return result;
-  }
+
   @Validator(yup.string(), yup.string(), yup.string(), yup.string(), yup.string(), yup.array().of(yup.string()), yup.array().of(yup.string()))
   public async attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[]) {
     try {
