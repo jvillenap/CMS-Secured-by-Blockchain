@@ -1,21 +1,7 @@
-Creation and Configuration of the OCI Storage Bucket
+# Creation and Configuration of the OCI Storage Bucket
+In this chapter we will configure the Oracle Cloud (OCI) Object Storage Bucket that will allow you to store and retrieve the documents by our Oracle Visual Builder Web application. This actions are executed by the Web Application in sync with the creation of the HASH of the document which will be stored in Blockchain during the upload of the document to the Bucket, and the verification of the validity of the hash when the document is downloaded.
 
-
-
-
-
-
-
-
-
-
-
-
-
-# Visual Builder workshop.
-This workshop will teach you how to create a new Oracle Visual Builder mobile application, that will allow you to take a photo with the mobile camera and upload it to Oracle Cloud (OCI) Object Storage.
-
-You probably don’t need it, but if you want to take a look you can find a detailed manual for Visual Builder [here](https://docs.oracle.com/en/cloud/paas/app-builder-cloud/visual-builder-developer/index.html)
+To enable the usage of the Buckets through the API REST offered by Oracle Cloud (OCI) Object Storage Buckets, we will need to create an OCI API Key related with user allowed to execute the REST API, so ohere below the two configuration tasks to be execute to be able to use the OCI Buckets in our VBCS Web Application:
 
 <details>
   <summary>1.- Creating the OCI API Key (click to show)</summary>
