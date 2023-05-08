@@ -5,6 +5,7 @@ To enable the usage of the Buckets through the API REST offered by Oracle Cloud 
 
 <details>
   <summary>1.- Creating the OCI API Key (click to show)</summary>
+  
 ## Creating the API Key
 
 ---
