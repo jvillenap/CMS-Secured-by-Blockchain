@@ -1,13 +1,17 @@
 # Configuration, Deployment, and Test of the Web Application.
 
-A Wev Application has been developed and can be downloaded here. To develop your Visual Builder Application you must access to the workshop Visual Builder Studio instance. Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
+A Web Application has been developed and can be downloaded [here](./src/WEDO_CMS_1_0-1.0.1.zip). This application has been configured to point to a different Blockchain network and a different bucket, so you should do a few changes to be able to use this application pointing to your Blockhain Network and to the bucket you previously created.
+
+First of all we are going to acces to your Visual Builder Studio instance, where we will be able to deploy the Web Application. 
+
 
 <details>
   
-  <summary>2.- Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
-  
+  <summary>1.- Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
+
 ---
- 
+Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
+	
 ---
   
 ## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
