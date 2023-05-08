@@ -99,6 +99,14 @@ The new bucket should appear in the selected compartment.
 
 ![](./images/oci-bucket-04.png)
 
- And that's all. Congratulations. You have successfully created the OCI Storage Bucket.
+Selecting the created bucket, you can see all its details.
+
+![](./images/oci-bucket-05.png)
+
+And finally, pushing in the Objects menu option in the lef menu, you can see the objects uploaded to it.
+
+![](./images/oci-bucket-06.png)
+
+And that's all. Congratulations. You have successfully created the OCI Storage Bucket.
 
 </details>
