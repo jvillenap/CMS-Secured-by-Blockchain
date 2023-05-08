@@ -85,6 +85,20 @@ OCI Object Storage is a versatile service which is very commonly used to store a
 
 First we need to have a bucket that represents where we will be storing our objects. From the OCI Console, navigate to ***Storage → Buckets***. Create a Bucket that you will be using for storage of files. For simplicity this Bucket is marked as Public, so that it doesnt require authentication, but you could achieve the same with Private visibility buckets as well.
 
+![](./images/oci-bucket-01.png)
 
+Then, select a compartment where you want to create the Bucket, and click the ***Create Bucket*** button.
+
+![](./images/oci-bucket-02.png)
+
+Next, give a name to the bucet, leave the other configuration parameters as default, and click in the **Create** Button to finish the creation of the bucket.
+
+![](./images/oci-bucket-03.png)
+
+The new bucket should appear in the selected compartment.
+
+![](./images/oci-bucket-04.png)
+
+ And that's all. Congratulations. You have successfully created the OCI Storage Bucket.
 
 </details>
