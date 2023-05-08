@@ -4,6 +4,7 @@
 [Introduction](#Introduction)  
 [Creation of the Smartcontract project](#CreationNFTchaincode)  
 [Deployment of the Smartcontract](#DeploymentNFTchaincodeFounder)  
+[Smartcontract Initialization](#InitializeNFTchaincode)  
 
 <a name="Introduction"/>
 
@@ -228,8 +229,128 @@ Once you have tested locally the chaincode, we can proceed by deploying it in th
 <img width="930" height="648" src="./images/4-nft-2-13.png"/>
 </p>
 
-7. If the deployment succeed, after closing the installation and deployment, you should see how the package has been installed in the two peers of the instance, and also has been deployed in one of the channels:
+7. If the deployment succeed, after closing the installation and deployment, you should see how the package has been installed in the two peers of the instance, and also instantiated in one of the channels:
 <p align="center">
 <img width="960" height="421" src="./images/4-nft-2-14.png"/>
 </p>
+
+
+<a name="InitializeNFTchaincode"/>
+
+## Initialization of an NFT Smartcontract
+
+When you are dealing with FTs and/or NFTs Tokens, there is a bunch of administrative actions to be executed before being able to execute your business methods. Thanks to Oracle Blockchain, all this administrative tasks can be executed as simple REST calls, so it simplify considerably the effort needed for the Smartcontract initialization.
+
+---
+IMPORTANT: Before the execution of any of the below steps we must create the enrollmentIDs into the REST Proxies for those users granted to access to the smartcontract methods. The enrollment is a mapping between the username who invoke the REST API, and the accounts managed internally by blockchain to which tokens will be assigned.
+The enrollment creation has already been done at the end of the first chapter, [Create Enrollments in the REST Proxy nodes](https://github.com/jvillenap/CMS-Secured-by-Blockchain/tree/main/1-create-network#createEnrollments "" Create Enrollments in the REST Proxy nodes).
+---
+
+## Prepare Postman Collection to execute REST APIs
+A Postman collections has been created to make more easy the initialization of the Smartcontract.
+
+In the ***AdminSteps*** folder of this <a id="raw-url" href=".../src/wedocms.postman_collection.json">Postman collection</a> have been created the three request calls to be executed for the Smartcontract initialization. 
+
+The Postman collection is ready to be used, but there is a set of variable which needs to be configured adequated to your own environment (passwords, URLs, ...). These variables are set in the ***Variables*** tab of the Postman collection. 
+
+The following table shows all the varibles we have defined and needs to be adapted to your environment:
+| Variable Name               | Variable value        |
+| --------------------------- |-----------------------|
+| bc_founder_provider_url     | https://org1-w....    |
+| bc_timeout                  | 60000                 |
+| bc_nft_founder_userid1      | cmsleg001             |
+| bc_nft_founder_userid1_pwd  | Oracle12345.          |
+| bc_nft_founder_userid2      | cmsfin001             |
+| bc_nft_founder_userid2_pwd  | Oracle12345.          |
+| bc_nft_founder_userid3      | cmsrsk001             |
+| bc_nft_founder_userid4_pwd  | Oracle12345.          |
+| bc_channel_name             | wedocms               |
+| bc_chaincode_name           | WEDOCMS               |
+
+First of all we need to know which is the endpoint in which the REST API is accesible. You can get this URL from the Blockchain Service Console:
+1. Access to the Blockchain Service Console through the OCI Console:
+   - In the OCI services menu, select ***Developer Services*** and click on ***Blockchain Platform***.
+   - Ensure that the right Compartment is selected and click on the founder or participant instance (the one you want to access through).
+   - Click the ***Service Console*** button.  
+2. Once inside the ***Service Console*** go to the ***Nodes*** tab. It will show you all the nodes which composes this instance, and in the ***restproxy*** node you will see the endpoint URL at the ***Route*** column: 
+<p align="center">
+<img width="966" height="611" src="./images/4-nft-2-15.png"/>
+</p>
+
+Remmember that enrollments are created at instance level, not network level, so the enrollment for cmsleg001 user will be only available through the restproxy URL of the founder instance, so, if new instances join the network, with new users allowed to access to the network, those users will need to exist in the proper tenancy, and the enrollments for those users should also be created in the restproxy of the corresponding instance. Following table shows the user to be used depending on the instance you are going to access:
+| username        | Instance URL          |
+| --------------- |-----------------------|
+| cmsleg001       | https://org1-....     |
+| cmsfin001       | https://org1-....     |
+| cmsrsk001       | https://org1-....     |
+
+Once Postman collection has been properly configured, we can proceed with the Smartcontract initialization. 
+
+The initialization of an NFT Smartcontract is considerably simplier than the initialization of a FT Smartcontract, we just need to execute three steps:
+1. Smartcontract initialization (Init Admin User Accounts).
+2. Creation of wallets for users who can own the NFT tokens.
+3. Asign minter role for those users who should have that privilege.
+
+
+The following API REST calls correspond to the calls into the ***AdminSteps*** folder from the provided Postman collection:
+
+1. The first action is the initialization of the chaincode (***Step-0: Init Admin User Account***) indicating which user accounts will be allowed to execute administrative tasks. It is important to set correctly the args of the init method:
+   - ***args***: Scaped array of user_ids with their org_ids:
+
+```JSON
+{
+    "chaincode": "{{bc_nft_chaincode_name}}",
+    "args": [
+        "init",
+        "[{\"orgId\":\"org1\",\"userId\":\"cmsleg001\"},{\"orgId\":\"org1\",\"userId\":\"cmsfin001\"},{\"orgId\":\"org1\",\"userId\":\"cmsrsk001\"}]"
+    ],
+    "timeout": {{bc_timeout}},
+    "isInit": true,
+    "sync": true
+}
+```
+
+<p align="center">
+<img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-9.png"/>
+</p>
+
+2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account***. For the specifics of our use case there is only two users, eshop_manager and lessee1_manager, each of them belonging to one of the existing organizations of the network.
+   - This call must be executed as many times as users for which we want to create an account. In our case 2 times, each with following params:
+     - "createAccount", "eshop", "eshop_manager", "nonfungible"
+     - "createAccount", "lessee1", "lessee1_manager", "nonfungible"
+
+```JSON
+{
+    "chaincode": "{{bc_nft_chaincode_name}}",                        //Smartcontract name
+    "args": [
+        "createAccount", "lessee1","lessee1_manager","fungible"      //Method, OrgID, UserID, fungible for FT / nonfungible for NFT
+    ],
+    "timeout": 60000,
+    "sync": true
+}
+```
+
+<p align="center">
+<img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-10.png"/>
+</p>
+
+3. We can set which user is allowed to mint tokens by executing the ***Step-2: AddRole*** from the Postman collection:
+  - Sample Request Payload
+
+```JSON
+{
+    "chaincode": "{{bc_nft_chaincode_name}}",            //Smartcontract name
+    "args": [
+        "addRole",                                       //Method name
+        "minter","eshop","eshop_manager"                 //Role, OrgId, UserID
+        ],
+    "timeout": 60000,
+    "sync": true
+}
+```
+
+<p align="center">
+<img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-11.png"/>
+</p>
+
 
