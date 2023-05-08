@@ -313,19 +313,20 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="995" height="674" src="./images/4-nft-2-16.png"/>
+<img width="996" height="674" src="./images/4-nft-2-16.png"/>
 </p>
 
-2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account***. For the specifics of our use case there is only two users, eshop_manager and lessee1_manager, each of them belonging to one of the existing organizations of the network.
-   - This call must be executed as many times as users for which we want to create an account. In our case 2 times, each with following params:
-     - "createAccount", "eshop", "eshop_manager", "nonfungible"
-     - "createAccount", "lessee1", "lessee1_manager", "nonfungible"
+2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account***. For the specifics of our use case there is only three users related with the same single organization belonging to the network.
+   - This call must be executed as many times as users for which we want to create an account. In our case 3 times, each with following params:
+     - "createAccount", "org1", "cmsleg001", "nonfungible"
+     - "createAccount", "org1", "cmsfin001", "nonfungible"
+     - "createAccount", "org1", "cmsrsk001", "nonfungible"
 
 ```JSON
 {
     "chaincode": "{{bc_nft_chaincode_name}}",                        //Smartcontract name
     "args": [
-        "createAccount", "lessee1","lessee1_manager","fungible"      //Method, OrgID, UserID, fungible for FT / nonfungible for NFT
+        "createAccount", "org1","cmsleg001","nonfungible"      //Method, OrgID, UserID, fungible for FT / nonfungible for NFT
     ],
     "timeout": 60000,
     "sync": true
@@ -333,18 +334,18 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-10.png"/>
+<img width="1001" height="605" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/4-nft-2-17.png"/>
 </p>
 
-3. We can set which user is allowed to mint tokens by executing the ***Step-2: AddRole*** from the Postman collection:
+3. We can set which user is allowed to mint tokens, in this case ***mint a token*** means create a new expedient to hold a new set of documents, so you can decide which of the three existing users (cmsleg001, cmsfin001, or cmsrsk001) can execute this actions, and for those users execute the request ***Step-2: AddRole*** from the Postman colletion:
   - Sample Request Payload
 
 ```JSON
 {
-    "chaincode": "{{bc_nft_chaincode_name}}",            //Smartcontract name
+    "chaincode": "{{bc_nft_chaincode_name}}",        //Smartcontract name
     "args": [
-        "addRole",                                       //Method name
-        "minter","eshop","eshop_manager"                 //Role, OrgId, UserID
+        "addRole",                                   //Method name
+        "minter","org1","cmsleg001"                  //Role, OrgId, UserID
         ],
     "timeout": 60000,
     "sync": true
@@ -352,7 +353,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-11.png"/>
+<img width="978" height="588" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/4-nft-2-18.png"/>
 </p>
 
  
