@@ -70,7 +70,7 @@ You have access to the Config file that you copied before to your desktop by cli
 
 ![](./images/oci-apikey-10.png)
 
- And thats it. Congratulations. You successfully generated your API keys.
+ And that's all. Congratulations. You successfully generated your API keys.
 
 </details>
 <details>
