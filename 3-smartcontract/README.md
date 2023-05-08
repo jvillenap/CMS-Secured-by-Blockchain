@@ -311,7 +311,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="995" height="674" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/4-nft-2-16.png"/>
+<img width="995" height="674" src="./images/4-nft-2-16.png"/>
 </p>
 
 2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account***. For the specifics of our use case there is only two users, eshop_manager and lessee1_manager, each of them belonging to one of the existing organizations of the network.
