@@ -5,12 +5,13 @@ To enable the usage of the Buckets through the API REST offered by Oracle Cloud 
 
 <details>
   <summary>1.- Creating the OCI API Key (click to show)</summary>
+## Creating the API Key
+
 ---
 To be able to use the OCI Object Storage Buckets from your Visual Builder App you must create an OCI API Key to get access to the OCI Services via API REST 
 
 ---
-
-## Creating the API Key
+  
 First Sign in [OCI web console](https://cloud.oracle.com) with your credentials 
 
 Write your tenancy name and click **Next** Button.
