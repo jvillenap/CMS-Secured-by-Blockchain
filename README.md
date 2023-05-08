@@ -147,7 +147,7 @@ Once the smartcontract project gets created, we will install and deploy it into 
 
 At this point, the smartcontract methods have already been published through the API Gateway of our Oracle Blockchain instance, so they are ready to be used by the client applications, in our case the Web Application we have already created with VBCS, and we will provide in the corresponding chapter of the HoL.
 
-Next to last step is the creation of the OCI Storage Bucket where the documents itself will be stored, and finally, last step is reconfiguration the provided VBCS application to point to our newly created Blockchain Network and the new bucket configured in our tenant. Once all the configuration is fine, application will be deployed into our tenancy.
+Next to last step is the creation of the OCI Storage Bucket where the documents itself will be stored, and finally, last step is reconfiguration the provided VBCS application to point to our newly created Blockchain Network and the new bucket configured in our tenancy. Once all the re-configuration is done, application will be deployed into our tenancy.
 
 Here you have the links to each of the labs to fulfill this HoL:  
 
@@ -155,8 +155,7 @@ Here you have the links to each of the labs to fulfill this HoL:
    [2. Preparation of Oracle App Builder development environment](../../blob/main/2-install-AppBuilder/README.md)  
    [3. Creation, Installation, Deployment and Initialization of the SmartContract](../../blob/main/3-smartcontract/README.md)  
    [4. Creation and Configuration of the OCI Storage Bucket](../../blob/main/4-bucket/README.md)   
-   [5. Configuration and Deployment of the Web Application](../../blob/main/5-webbApp/README.md)  
-   [6. Test the Application](../../blob/main/6-test/README.md)  
+   [5. Configuration, Deployment, and Test of the Web Application](../../blob/main/5-webbApp/README.md)  
 
 
 Enjoy it!
