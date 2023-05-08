@@ -76,6 +76,8 @@ You have access to the Config file that you copied before to your desktop by cli
 <details>
   <summary>2.- Creating the OCI Storage Bucket (click to show)</summary>
 
+##Create a Bucket in OCI Storage
+  
 ---
 OCI Object Storage is a versatile service which is very commonly used to store application data like images, files etc. Here, we will show how to create a OCI Storage Bucket to be used to upload and download PDF documents in it from our Visual Builder app.
 
