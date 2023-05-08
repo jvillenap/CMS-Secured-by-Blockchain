@@ -251,7 +251,7 @@ The enrollment creation has already been done at the end of the first chapter, [
 ## Prepare Postman Collection to execute REST APIs
 A Postman collections has been created to make more easy the initialization of the Smartcontract.
 
-In the ***AdminSteps*** folder of this <a id="raw-url" href=".../src/wedocms.postman_collection.json">Postman collection</a> have been created the three request calls to be executed for the Smartcontract initialization. 
+In the ***AdminSteps*** folder of this <a id="raw-url" href="./src/WEDO_BlockchainCMS.postman_collection.json">Postman collection</a> have been created the three request calls to be executed for the Smartcontract initialization. 
 
 The Postman collection is ready to be used, but there is a set of variable which needs to be configured adequated to your own environment (passwords, URLs, ...). These variables are set in the ***Variables*** tab of the Postman collection. 
 
