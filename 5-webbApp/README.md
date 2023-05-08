@@ -679,8 +679,32 @@ After following all the steps, You should have an **Action Chain** workflow simi
 </details>
 
 <details>
-  <summary>4. Test your mobile application (click to show)</summary>
+  <summary>4. Test your Web Application (click to show)</summary>
 
+
+A simple VBCS application has been created to show how to create or to interoperate with existing expedients.
+
+This VB application interacts against the two backends used in the solution, it is BC and the buckets of OCI storage, using IC as interface to decouple the business logic
+	from the navigation and presentation layers.  
+
+Login as an expedient manager, the user will be able to access to the expedients for which he/she is the current owner, 
+	... or create a new expedient, for which he/she will be the current custodian.
+	being able to add more documents into the expedient, or transfer the whole expedient to a different user/department.
+
+demo create new expedient
+
+In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
+
+Also we can see how the uploaded documents has been saved into a bucket of our tennacy.
+
+
+Login as a document reviewer, any user who has access to the app
+	will be able to review documents from any expedient.
+
+
+  
+  
+  
 --- 
 Once you have configured the mobile application in Oracle Visual Builder with the functionality that you want it to present to end users, plus the REST service connections to Oracle Content and Experience, you build it so that you can test it on a device or distribute it to end users. Oracle Visual Builder can build the following types of applications from the same mobile application source code:
 
