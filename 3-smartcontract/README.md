@@ -334,7 +334,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="1001" height="605" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/4-nft-2-17.png"/>
+<img width="1001" height="605" src="./images/4-nft-2-17.png"/>
 </p>
 
 3. We can set which user is allowed to mint tokens, in this case ***mint a token*** means create a new expedient to hold a new set of documents, so you can decide which of the three existing users (cmsleg001, cmsfin001, or cmsrsk001) can execute this actions, and for those users execute the request ***Step-2: AddRole*** from the Postman colletion:
@@ -353,7 +353,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 ```
 
 <p align="center">
-<img width="978" height="588" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/4-nft-2-18.png"/>
+<img width="978" height="588" src="./images/4-nft-2-18.png"/>
 </p>
 
  
