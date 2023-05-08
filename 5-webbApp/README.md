@@ -8,13 +8,14 @@ First of all we are going to acces to your Visual Builder Studio instance, where
 <details>
   
   <summary>1.- Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
+  
+## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
 	
 ---
-  
-## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
+	
 To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud web console with your tenancy user credentials. Then Click in the *hamburguer icon* in the top left part of the web console and select **OCI Classic Services** then click in **Developer** to access to Visual Builder Studio instance.
 
 ![](./images/oci-vbs-01.png)
