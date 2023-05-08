@@ -83,7 +83,7 @@ OCI Object Storage is a versatile service which is very commonly used to store a
 
 ---
 
-First we need to have a bucket that represents where we will be storing our objects. From the OCI Console, navigate to ***Storage → Buckets***. Create a Bucket that you will be using for storage of files. For simplicity this Bucket is marked as Public, so that it doesnt require authentication, but you could achieve the same with Private visibility buckets as well.
+First we need to create a bucket where our objects will be stored. To do it, from the OCI Console, navigate to ***Storage → Buckets***. For simplicity it can be createdas Public, so that it doesn't require authentication, but you could achieve the same with Private visibility buckets as well.
 
 ![](./images/oci-bucket-01.png)
 
