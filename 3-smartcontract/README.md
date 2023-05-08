@@ -353,4 +353,4 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 <img width="982" height="612" src="https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/05-Test-Smartcontract-Using-Postman/images/5-test-2-11.png"/>
 </p>
 
-
+ 
