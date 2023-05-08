@@ -75,6 +75,7 @@ You have access to the Config file that you copied before to your desktop by cli
 </details>
 <details>
   <summary>2.- Creating the OCI Storage Bucket (click to show)</summary>
+
 ## Create a Bucket in OCI Storage
   
 ---
