@@ -21,6 +21,7 @@ To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud we
 ![](./images/oci-vbs-01.png)
   
 Next you have to click in the VBS instance **menu icon** and click in the **Access Service Instance**
+In case there is no instance yet created, created the instance, wait until gets created, and access to it. 
   
 ![](./images/oci-vbs-02.png)  
  
