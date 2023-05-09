@@ -1,13 +1,13 @@
 # Configuration, Deployment, and Test of the Web Application.
 
-A Web Application has been developed and can be downloaded [here](./src/WEDO_CMS_1_0-1.0.1.zip). This application has been configured to point to a different Blockchain network and a different bucket, so you should do a few changes to be able to use this application pointing to your Blockhain Network and to the bucket you previously created.
+A Web Application has been developed and can be downloaded [here](./src/WEDO_CMS_1_0-1.0.1.zip). This application has been configured to point to a different Blockchain network and a different bucket, so you should do a few changes to be able to use this application pointing to your Blockhain Network and to the bucket you created in the previous chapter.
 
-First of all we are going to acces to your Visual Builder Studio instance, where we will be able to deploy the Web Application. 
+First of all we are going to acces to your Visual Builder Studio instance, where we will be able to import the provided Web Application. 
 
 
 <details>
   
-  <summary>1.- Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
+  <summary>1.- Accessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
   
 ## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
 
