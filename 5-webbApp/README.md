@@ -58,7 +58,9 @@ Select your VBCS instance and click on the ***Add*** Button. After that you will
 
 ![](./images/oci-vbs-10.png)
 
-	
+Let's go to create the ***Workspace*** Where we will be able to import the precreated Web Application. Push the ***Workspace*** menu option. 
+
+![](./images/oci-vbs-1q.png)
 	
   
 Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
