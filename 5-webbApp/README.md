@@ -7,7 +7,7 @@ First of all we are going to acces to your Visual Builder Studio instance, where
 
 <details>
   
-  <summary>1.- Accessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service (click to show)</summary>
+  <summary>1.- Use Visual Builder Studio to configure the Web Application for your environment (click to show)</summary>
   
 ## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
 
