@@ -22,13 +22,28 @@ To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud we
   
 Next you have to click in the VBS instance **menu icon** and click in the **Access Service Instance**  
 
-In case there is no instance yet created, created the instance, wait until gets created, and access to it. 
+In case there is no instance yet created, create the instance, wait until gets created, and access to it. 
   
 ![](./images/oci-vbs-02.png)  
- 
-Then in **Organization**, select the *Project* -> **Workshop-VBCS-Takephoto** that you will use for this workshop. 
-  
+
+First step inside Visual Builder studio is create a project. It can be done pushing the ***Create*** button 
+
 ![](./images/oci-vbs-03.png)
+
+Give a Name to the project and push the ***Next*** button
+
+![](./images/oci-vbs-04.png)
+	
+As we will import an existing Visual Builder Appication, as a Project Template select an ***Empty Project*** and push the ***Next*** button.	
+
+![](./images/oci-vbs-05.png)
+
+In the last screen of the wizzard, leave the defaul wiki markup language and push the ***Finish*** button. The new project will be created in no more than 5 minutes.
+
+![](./images/oci-vbs-06.png)
+	
+	Then in **Organization**, select the *Project* -> **Workshop-VBCS-Takephoto** that you will use for this workshop. 
+  
   
 Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
 > Note: if the trainer asign you the numbre 01 or user01, your workspace will be something like **workspace-user01**.
