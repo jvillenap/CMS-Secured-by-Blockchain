@@ -9,7 +9,7 @@ First of all we are going to acces to your Visual Builder Studio instance, where
   
   <summary>1.- Use Visual Builder Studio to configure the Web Application for your environment (click to show)</summary>
   
-## Acessing Visual Builder Studio and WorkSpace using Visual Builder Cloud Service
+## Use Visual Builder Studio to configure the Web Application for your environment
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
@@ -41,9 +41,25 @@ As we will import an existing Visual Builder Appication, as a Project Template s
 In the last screen of the wizzard, leave the defaul wiki markup language and push the ***Finish*** button. The new project will be created in no more than 5 minutes.
 
 ![](./images/oci-vbs-06.png)
+
+Once the Project gets created, the main page of the project will be shown. Before import our application we need to have an environment to configure and temporarilly run it. Click on the ***Create Environment*** button.
+
+![](./images/oci-vbs-07.png)
+
+Give a name to the environment and a description and click on the ***Create*** button.
+
+![](./images/oci-vbs-08.png)
+
+If there is any Visual Builder instance already in the tenancy, add it to this environment pushing the ***Add Instance*** button. If you do not have any instance of Visual Builder, provision one and return to this point to add the instance to the Environment.
+
+![](./images/oci-vbs-09.png)
+
+Select your VBCS instance and click on the ***Add*** Button. After that you will see how your environment with a VBCS environment tied to it are ready to be use.
+
+![](./images/oci-vbs-10.png)
+
 	
-	Then in **Organization**, select the *Project* -> **Workshop-VBCS-Takephoto** that you will use for this workshop. 
-  
+	
   
 Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
 > Note: if the trainer asign you the numbre 01 or user01, your workspace will be something like **workspace-user01**.
