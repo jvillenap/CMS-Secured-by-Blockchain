@@ -7,9 +7,9 @@ First of all we are going to acces to your Visual Builder Studio instance, where
 
 <details>
   
-  <summary>1.- Use Visual Builder Studio to configure the Web Application for your environment (click to show)</summary>
+  <summary>1.- Import the provided application into Visual Builder Studio (click to show)</summary>
   
-## Use Visual Builder Studio to configure the Web Application for your environment
+## Import the provided application into Visual Builder Studio
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
@@ -79,27 +79,17 @@ Populate the Workspace creation wizzard page by providing:
 Once provided all the details, push the ***Import*** button.
 
 ![](./images/oci-vbs-13.png)
-
-	
-	
-	
-	
-	
-	
-  
-All trainees will use their own git repository tied to their own workspace.
-  
-![](./images/oci-vbs-04.png)
-  
-Wait a couple of second to access to your workspace. You should see the *Welcome to your Workspace* page.
-  
-![](./images/oci-vbs-05.png)
     
 </details>
 </details>
 <details>
-  <summary>3.- Creating a Mobile App in Visual Builder (click to show)</summary>
+  <summary>3.- Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
+
   
+## Import the provided application into Visual Builder Studio
+
+
+
 ---
 In this section you will create a mobile application with Visual Builder low coding programing. This application will have several components like an API REST connection to Oracle Cloud Object Storage bucket to storage your photos or files, a mobile layout with input fields and button to take the photo, a workflow triggered by the button event handler and more. At the end of the section you will can take a photo with your mobile phone and upload it to an OCI Object Storage bucket.
  
