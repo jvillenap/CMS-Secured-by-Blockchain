@@ -63,8 +63,12 @@ Once the environment hsa been added to the project, we are going to create the *
 Push the ***Workspace*** menu option in the left navigation menu. 
 
 ![](./images/oci-vbs-11.png)
-	
-  
+
+A workspace can be created just importing our VBCS Web Application into the project. Push the ***Import*** button.
+
+![](./images/oci-vbs-12.png)
+
+
 Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
 > Note: if the trainer asign you the numbre 01 or user01, your workspace will be something like **workspace-user01**.
   
