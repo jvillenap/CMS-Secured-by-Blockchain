@@ -62,7 +62,7 @@ Once the environment hsa been added to the project, we are going to create the *
 
 Push the ***Workspace*** menu option in the left navigation menu. 
 
-![](./images/oci-vbs-10b.png)
+![](./images/oci-vbs-11.png)
 	
   
 Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
