@@ -22,7 +22,7 @@ To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud we
   
 Next you have to click in the VBS instance **menu icon** and click in the **Access Service Instance**  
 
-In case there is no instance yet created, create a new instance, wait until gets created, and access to it. 
+> Note: In case there is no instance yet created, create a new instance, wait until gets created, and access to it. 
   
 ![](./images/oci-vbs-02.png)  
 
@@ -50,7 +50,9 @@ Give a name to the environment and a description and click on the ***Create*** b
 
 ![](./images/oci-vbs-08.png)
 
-If there is any Visual Builder instance already in the tenancy, add it to this environment pushing the ***Add Instance*** button. If you do not have any instance of Visual Builder, provision one and return to this point to add the instance to the Environment.
+If there is any Visual Builder instance already in the tenancy, add it to this environment pushing the ***Add Instance*** button. 
+
+>  Note: If you do not have any instance of Visual Builder, provision one and return to this point to add the instance to the Environment.
 
 ![](./images/oci-vbs-09.png)
 
@@ -68,17 +70,22 @@ A workspace can be created just importing our VBCS Web Application into the proj
 
 ![](./images/oci-vbs-12.png)
 
-Populate the Workspace creation wizzard page by providing: 
-	- The zip file of the precreated VBCS Application
-	- A name for the workspace
-	- Select an environment to be use to test the application
-	- Create a new empty Git repository giving a name to it and a default branch name
+Populate the Workspace creation wizzard page by providing:   
+	- The zip file of the precreated VBCS Application  
+	- A name for the workspace  
+	- Select an environment to be use to test the application  
+	- Create a new empty Git repository giving a name to it and a default branch name  
+
+Once provided all the details, push the *** Import *** button.
 
 ![](./images/oci-vbs-13.png)
+
 	
 	
 	
-> Note: if the trainer asign you the numbre 01 or user01, your workspace will be something like **workspace-user01**.
+	
+	
+	
   
 All trainees will use their own git repository tied to their own workspace.
   
