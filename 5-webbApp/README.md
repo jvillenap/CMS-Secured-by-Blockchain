@@ -7,9 +7,9 @@ First of all we are going to acces to your Visual Builder Studio instance, where
 
 <details>
   
-  <summary>1.- Import the provided application into Visual Builder Studio (click to show)</summary>
+  <summary>1. Import the provided application into Visual Builder Studio (click to show)</summary>
   
-## Import the provided application into Visual Builder Studio
+## 1. Import the provided application into Visual Builder Studio
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
@@ -82,10 +82,10 @@ Once provided all the details, push the ***Import*** button.
     
 </details>
 <details>
-  <summary>2.- Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
+  <summary>2. Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
 
   
-## Import the provided application into Visual Builder Studio
+## 2. Import the provided application into Visual Builder Studio
 
 
 
