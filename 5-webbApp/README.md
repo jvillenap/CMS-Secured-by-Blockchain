@@ -76,7 +76,7 @@ Populate the Workspace creation wizzard page by providing:
 	- Select an environment to be use to test the application  
 	- Create a new empty Git repository giving a name to it and a default branch name  
 
-Once provided all the details, push the *** Import *** button.
+Once provided all the details, push the ***Import*** button.
 
 ![](./images/oci-vbs-13.png)
 
