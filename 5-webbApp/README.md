@@ -68,8 +68,16 @@ A workspace can be created just importing our VBCS Web Application into the proj
 
 ![](./images/oci-vbs-12.png)
 
+Populate the Workspace creation wizzard page by providing: 
+	- The zip file of the precreated VBCS Application
+	- A name for the workspace
+	- Select an environment to be use to test the application
+	- Create a new empty Git repository giving a name to it and a default branch name
 
-Select *Workspaces* in the left menu to get all the workspaces in the project. Then select the appropiate workspace asigned to you by the trainer. In this tutorial, you will see that the screenshots show *userXX*, but you will have to change XX with your user number.
+![](./images/oci-vbs-13.png)
+	
+	
+	
 > Note: if the trainer asign you the numbre 01 or user01, your workspace will be something like **workspace-user01**.
   
 All trainees will use their own git repository tied to their own workspace.
