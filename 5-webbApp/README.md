@@ -81,9 +81,8 @@ Once provided all the details, push the ***Import*** button.
 ![](./images/oci-vbs-13.png)
     
 </details>
-</details>
 <details>
-  <summary>3.- Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
+  <summary>2.- Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
 
   
 ## Import the provided application into Visual Builder Studio
@@ -99,9 +98,9 @@ In this section you will create a mobile application with Visual Builder low cod
 You can create web applications as well as mobile applications in Visual Builder. As a low coding programing platform you have a lot of preconfigured components to create an application for your business case. But you can use javascript (nodejs notation) if you want to have more control coding your application. The limit is your imagination!!.
 
 <details>
-  <summary>3.1 Creating the mobile layout (click to show)</summary>
+  <summary>2.1 Configure the Blockchain Network (click to show)</summary>
   
-### Creating the mobile layout.
+### 2.1 Configure the Blockchain Network.
 Now you will create the mobile layout adding several components that you will use and combine in future sections to create the mobile application. Click in the **mobile icon** in the top left menu and then click **+ Mobile Application** button to create a mobile application.
   
 ![](./images/vbs-app-01.png)
@@ -184,8 +183,10 @@ Now you should have a Structure tree similar to the next screenshot. You can mov
   
 </details>
 <details>
-  <summary>3.2 Configuring the components created (click to show)</summary>
-  
+  <summary>2.2 Configure the OCI Storage Bucket (click to show)</summary>
+
+### 2.2 Configure the OCI Storage Bucket.
+
 ---
   
 In this section you'll configure the components to improve the UI and user experience. For example you'll use the **If** components to show or hide the camera button and the image components.
