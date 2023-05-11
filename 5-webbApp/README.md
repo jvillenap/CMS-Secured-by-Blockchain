@@ -118,8 +118,18 @@ First of all we need to recap all the information related with the Blockchain Ne
 
 When it is clear all this information, we can move forward and configure such parameters into our Web Application. It can be done opening the workspace we just created in Visual Builder Studio. So, first of all let's open the workspace by Accessing to our [Visual Builder Studio instance](#AccessVBS), and open the project you created by clicking in the name of the project from the default page where you land  (***Organization***) when you access to VBS.
 
-![](./images/vbs-app-01.png)
-  
+![](./images/oci-vbs-14.png)
+
+Once inside the project, select the ***Workspace*** created when importing the provided Web Application.
+
+![](./images/oci-vbs-15.png)
+
+Once inside the Workspace, let's move to the place where the variables defining with which Blockchain instance, channel and chaincode our app must interact.
+
+First select the Web App Section (1), and then select the only existing Web App ***docmngmnt***) (2).
+
+![](./images/oci-vbs-16.png)
+
 In *General Information* you must to write a descriptive name for your mobile app, like **MyMobilePhotoUpload_UserXX**. Then select none as mobile layout app, because in this workshop we won't create a navigation menu for the app as it has only one screen. Finally click **Next** button to continue.
   
 ![](./images/vbs-app-02.png)
