@@ -165,12 +165,20 @@ In the Right side of the server configuration, Click on the ***Pencil*** icon to
 ![](./images/oci-vbs-22.png)
 
 The configuration of the Service Connection used to interact with our bucket needs to be adapted in three places:
+
+![](./images/oci-vbs-23.png)
+
  1. ***Instance URL***: It needs to be changed to point to your Bucket based in the name of your tenancy and the name you gave to the bucket when you created it. The URL must composed based in the following URL template:
 ```
-   https://objectstorage.<region-name>.oraclecloud.com/n/<tenancy-name>/b/<bucket-name>
+   https://objectstorage.<region-name>.oraclecloud.com/n/<storage-namespace>/b/<bucket-name>
 ```
+   ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from the ***Tenancy Details*** page:
 
-![](./images/vbs-app-config-03.png)
+![](./images/oci-vbs-24.png)
+
+ 2. 
+
+
 
 Now click in the *Camera* component and in the General tab uncheck **Video** check, as you'll have to take photos only. 
 
