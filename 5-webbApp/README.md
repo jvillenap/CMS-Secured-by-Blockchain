@@ -13,9 +13,9 @@ First of all we are going to acces to your Visual Builder Studio instance, where
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
-	
+	  
 ---
-	
+<a name="AccessVBS"/>
 To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud web console with your tenancy user credentials. Then Click in the *hamburguer icon* in the top left part of the web console and select **OCI Classic Services** then click in **Developer** to access to Visual Builder Studio instance.
 
 ![](./images/oci-vbs-01.png)
@@ -23,6 +23,7 @@ To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud we
 Next you have to click in the VBS instance **menu icon** and click in the **Access Service Instance**  
 
 > Note: In case there is no instance yet created, create a new instance, wait until gets created, and access to it. 
+> Important: Save the URL of this Visual Builder Studio instance, as it will be used in the following chapters.
   
 ![](./images/oci-vbs-02.png)  
 
@@ -60,7 +61,7 @@ Select your VBCS instance and click on the ***Add*** Button. After that you will
 
 ![](./images/oci-vbs-10.png)
 
-Once the environment hsa been added to the project, we are going to create the ***Workspace***, where we will be able to import the precreated Web Application. 
+Once the environment has been added to the project, we are going to create the ***Workspace***, where we will be able to import the precreated Web Application. 
 
 Push the ***Workspace*** menu option in the left navigation menu. 
 
@@ -93,7 +94,7 @@ In this chapter we are going to configure the provided Web Application to point 
   
 ### 2.1 Configure the Blockchain Network.
 First of all we need to recap all the information related with the Blockchain Network we defined in the first chapter [Create an Oracle Blockchain Network
-](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md). If you followed the same terminology I've used in the HoL, following table shows this information:
+](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md). If you followed the same terminology used in the HoL, following table shows this information:
 
 |Field|Value|  
 |-|-|
@@ -102,11 +103,13 @@ First of all we need to recap all the information related with the Blockchain Ne
 |Channel | wedocms |
 |Chaincode | WEDOCMS |
 
-> Note: BC Endpoint is composed by some OCI tenancy values as we can see in the following URL:
+> Note: BC Endpoint is the only value which will vary for all the tenancies because the URL is composed based in some OCI tenancy values as we can see in the following URL:
 
 ```
     https://<InstanceName>-<TenancyName>-<RegionID>.blockchain.ocp.oraclecloud.com:7443/
 ```
+
+When it is clear all this information, we can move forward and configure such parameters into our Web Application. It can be done opening the workspace we just created in Visual Builder Studio. So, first of all let's open the workspace by Accessing to our [Visual Builder Studio instance](#AccessVBS).  
 
 ![](./images/vbs-app-01.png)
   
