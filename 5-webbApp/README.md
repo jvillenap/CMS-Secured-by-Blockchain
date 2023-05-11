@@ -34,7 +34,7 @@ Next you have to click in the VBS instance **menu icon** and click in the **Acce
   
 ## 2. Import the provided application into Visual Builder Studio
 
-First step inside Visual Builder studio is create a project. It can be done pushing the ***+ Create*** button in the default page (***Organization***) where you land in Visual Builder Studio. 
+First step inside Visual Builder studio is create a project. It can be done pushing the ***+ Create*** button in the default page (***Organization***) where you land first time you access to Visual Builder Studio. 
 
 ![](./images/oci-vbs-03.png)
 
