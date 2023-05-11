@@ -134,7 +134,7 @@ Once Opened the application, move to the ***variables*** tab.
 
 ![](./images/oci-vbs-17.png)
   
-And change the default value of the variables ***bcEndpoint***, ***bcInstance***, ***chaincode***, and ***channel***. It can be done easily just pushing the ***f(x)*** simbol in the top-left corner of the ***Default Value*** attribute on each of the variables.
+And change the default value of the variables ***bcEndpoint***, ***bcInstance***, ***chaincode***, and ***channel***. It can be done easily just pushing the ***f(x)*** symbol in the top-left corner of the ***Default Value*** attribute for each of the variables.
 
 ![](./images/oci-vbs-18.png)
 
