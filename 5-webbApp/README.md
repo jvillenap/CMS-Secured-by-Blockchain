@@ -241,12 +241,19 @@ We can double-check if the transaction has been executed properly accessing to t
 
 Now, let's see if we can upload a document into the newly created expedient.
 
-	
-demo create new expedient
+Select the expedient we just created (1) and push the button ***Upload Documents***.
+
+![](./images/oci-vbs-33.png)
+
+There is no document uploaded in this expedient. Click the ***Upload a New Docuemnt*** button.
+
+![](./images/oci-vbs-34.png)
+
+
 
 In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
 
-Also we can see how the uploaded documents has been saved into a bucket of our tennacy.
+Also we can double-check if the uploaded document has been saved as object into the bucket of our tennacy.
 
 
 Login as a document reviewer, any user who has access to the app
