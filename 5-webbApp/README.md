@@ -164,7 +164,7 @@ In the Right side of the server configuration, Click on the ***Pencil*** icon to
   
 ![](./images/oci-vbs-22.png)
 
-The configuration of the Service Connection used to interact with our bucket needs to be adapted in three fields:
+The configuration of the Service Connection used to interact with our bucket needs to be adapted in three places:
  1. ***Instance URL***: It needs to be changed to point to your Bucket based in the name of your tenancy and the name you gave to the bucket when you created it. The URL must composed based in the following URL template:
 ```
    https://objectstorage.<region-name>.oraclecloud.com/n/<tenancy-name>/b/<bucket-name>
