@@ -60,6 +60,8 @@ Then click in **Add** button.
 
 Next window is the summary or **Configuration File Preview**. Click in the **copy** link to copy your OCI API credentials to a text file in your local computer as you will need them in future steps in the workshop. Then click **Close** Button to finish the process.
 
+> IMPORTANT: save this details as you will need some of them in next steps of the HoL.
+
 ![](./images/oci-apikey-08.png)
 
 You should have a new API key created and you should see the Fingerprint key in the OCI web console. 
