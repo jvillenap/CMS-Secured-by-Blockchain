@@ -97,12 +97,12 @@ First of all we need to recap all the information related with the Blockchain Ne
 
 |Field|Value|  
 |-|-|
-|BC Endpoint|Take a Photo|
-|Instance|Call To Action|
-|Channel| Full Width |
-|Chaincode| Full Width |
+|BC Endpoint | https://org1-wedoinfra-fra.blockchain.ocp.oraclecloud.com:7443/ |
+|Instance Name |org1|
+|Channel | wedocms |
+|Chaincode | WEDOCMS |
 
-
+> Note: BC Endpoint is composed by some OCI tenancy values as we can see in this URL https://<Instance-Name>-<TenancyName>-<RegionID>.blockchain.ocp.oraclecloud.com:7443/
 
 ![](./images/vbs-app-01.png)
   
