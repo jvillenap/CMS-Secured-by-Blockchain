@@ -4,18 +4,17 @@ A Web Application has been developed and can be downloaded [here](./src/WEDO_CMS
 
 First of all we are going to acces to your Visual Builder Studio instance, where we will be able to import the provided Web Application. 
 
-
+<a name="AccessVBS"/>
 <details>
   
-  <summary>1. Import the provided application into Visual Builder Studio (click to show)</summary>
+  <summary>1. Acces to Visual Builder Studio (click to show)</summary>
   
-## 1. Import the provided application into Visual Builder Studio
+## 1. Acces to Visual Builder Studio
 
 ---
 Visual Builder is not only used to develop Visual Builder applications, but it allows the development of any kind of modern application thanks to its multitude of integrated development tools, such as a GIT repository, CI/CD pipelines engine, artifact generation, container repository, agile tools, team building tools like wiki and snipples and more. If you want to know more please click [here](https://www.oracle.com/application-development/visual-builder-studio/)
 	  
 ---
-<a name="AccessVBS"/>
 To get access to Visual Builder Studio (VBS) you have to Sign-in Oracle Cloud web console with your tenancy user credentials. Then Click in the *hamburguer icon* in the top left part of the web console and select **OCI Classic Services** then click in **Developer** to access to Visual Builder Studio instance.
 
 ![](./images/oci-vbs-01.png)
@@ -24,9 +23,16 @@ Next you have to click in the VBS instance **menu icon** and click in the **Acce
 
 > Note: In case there is no instance yet created, create a new instance, wait until gets created, and access to it. 
 	
-> Important: Save the URL of this Visual Builder Studio instance, as it will be used in the following chapters.
+> IMPORTANT: Save the URL of this Visual Builder Studio instance, as it will be used in the following chapters.
   
 ![](./images/oci-vbs-02.png)  
+
+</details>
+<details>
+  
+  <summary>2. Import the provided application into Visual Builder Studio (click to show)</summary>
+  
+## 2. Import the provided application into Visual Builder Studio
 
 First step inside Visual Builder studio is create a project. It can be done pushing the ***Create*** button 
 
@@ -84,16 +90,16 @@ Once provided all the details, push the ***Import*** button.
     
 </details>
 <details>
-  <summary>2. Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
+  <summary>3. Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
 
-## 2. Import the provided application into Visual Builder Studio
+## 3. Import the provided application into Visual Builder Studio
 In this chapter we are going to configure the provided Web Application to point to the Blockchain Instance we created in the chapter [Create an Oracle Blockchain Network
 ](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md), and to point the Object Storage Bucket we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
 
 <details>
-  <summary>2.1 Configure the Blockchain Network (click to show)</summary>
+  <summary>3.1 Configure the Blockchain Network (click to show)</summary>
   
-### 2.1 Configure the Blockchain Network.
+### 3.1 Configure the Blockchain Network.
 First of all we need to recap all the information related with the Blockchain Network we defined in the first chapter [Create an Oracle Blockchain Network
 ](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md). If you followed the same terminology used in the HoL, following table shows this information:
 
