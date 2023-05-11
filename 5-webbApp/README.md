@@ -138,7 +138,7 @@ And change the default value of the variables ***bcEndpoint***, ***bcInstance***
 
 ![](./images/oci-vbs-18.png)
 
-Once selected any of the variables, and expression editor will be opened, where you will be able to set propperly the value of each property based in your environment.
+Once selected any of the variables, and when the ***f(x)*** symbol gets clicked, the expression editor will be opened, where you will be able to set propperly the value of each property based in your environment.
   
 ![](./images/oci-vbs-19.png)
 
@@ -146,33 +146,29 @@ Once changed all this parameters we can move forward to the next chapter!
   
 </details>
 <details>
-  <summary>2.2 Configure the OCI Storage Bucket (click to show)</summary>
+  <summary>3.2 Configure the OCI Storage Bucket (click to show)</summary>
 
-### 2.2 Configure the OCI Storage Bucket.
+### 3.2 Configure the OCI Storage Bucket.
 
----
+Now we are going to configure the bucket to be used by the Web Application based in the values of the API Key and Bukcet we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
+
+First select the Services Connection Section (1), and then select the only existing Service Connection configured in the Web App ***fileUpload*** (2).
+
+![](./images/oci-vbs-20.png)
+
+Click in the ***Servers*** tab. 
   
-In this section you'll configure the components to improve the UI and user experience. For example you'll use the **If** components to show or hide the camera button and the image components.
-
----
+![](./images/oci-vbs-21.png)
   
-## Configuring the components created.
-Now that you have created the mobile app UI layout, you have to configure the different components. Let's configure the components!!
+In the Right side of the server configuration, Click on the Pencil icon to change the configuration of the ***fileUpload*** service Connection.
+  
+![](./images/oci-vbs-22.png)
 
-The photo name will be the join of the first Input Text field (User Name), the second Input Text field (Photo Name) and a random number that the phone use when you take a photo with the camera. The result should be something similar to 
-```sh  
-userXX-photoXX-0934750743058743095.jpg
+The configuration of the Service Connection used to interact with our bucket needs to be adapted in three fields:
+ 1. ***Instance URL***: It needs to be changed to point to your Bucket based in the name of your tenancy and the name you gave to the bucket when you created it. The URL must composed based in the following URL template:
 ```
-  
-Click in the first *Text Input* component to get access the **General** component fields. This component will be used to storage the user name that will take the photo. 
-  
-![](./images/vbs-app-config-01.png)
-  
-In the **Label Hint** write *User Name* and keep rest of the fields as default.
-  
-![](./images/vbs-app-config-02.png)
-
-Repeat the same steps to put **Photo Name** in the second *Input Text* field. 
+   https://objectstorage.<region-name>.oraclecloud.com/n/<tenancy-name>/b/<bucket-name>
+```
 
 ![](./images/vbs-app-config-03.png)
 
