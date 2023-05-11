@@ -176,15 +176,19 @@ The tenancy related values can be retrieved by accessing to the ***Teancy Detail
 
 ![](./images/oci-vbs-25.png)
 
-The values ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from the ***Tenancy Details*** page:
+... and the values ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from this page:
 
 ![](./images/oci-vbs-24.png)
 
- 2. ***Authentication***: You mast ensure the method authentication is set to ***Oracle Cloud Infrastructure API Signature 1.0***, and the key is set by pushing the Pencil icon in the right side of the ***Key Id*** property:
+ 2. ***Authentication***: You must ensure the authentication method is set to ***Oracle Cloud Infrastructure API Signature 1.0***, and the key is set by pushing the Pencil icon in the right side of the ***Key Id*** property:
 
 ![](./images/oci-vbs-26.png)
 
-
+As you can see from the image, the ***Key Id*** is composed based in the following template:
+```
+   <Tenancy-OCID>/<User-OCID>/<Key-Fingerprint>
+``` 
+All this values can be obtained from the ***Configuration File Preview*** obtained when ***API Key*** was created in chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md)
 
 Now click in the *Camera* component and in the General tab uncheck **Video** check, as you'll have to take photos only. 
 
