@@ -241,13 +241,17 @@ We can double-check if the transaction has been executed properly accessing to t
 
 Now, let's see if we can upload a document into the newly created expedient.
 
-Select the expedient we just created (1) and push the button ***Upload Documents***.
+Select the expedient we just created (1) and push the button ***Upload Documents*** (2).
 
 ![](./images/oci-vbs-33.png)
 
 There is no document uploaded in this expedient. Click the ***Upload a New Docuemnt*** button.
 
 ![](./images/oci-vbs-34.png)
+
+Select a ***Document Type*** (1), give a value to the ***Document Name*** field (2), drag a PDF file into the ***Drag on Drop*** Area (3), add as much ***Dynamic*** key-value properties (4), and click the ***Upload Document*** Button. 
+
+![](./images/oci-vbs-35.png)
 
 
 
