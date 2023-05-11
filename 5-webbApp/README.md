@@ -204,6 +204,7 @@ Now, you can test the Application!
 <details>
   <summary>4. Test your Web Application (click to show)</summary>
 
+## 4. Test your Web Application
 Now you can test the application from the Visual Builder environment configured in our project. After we can see how everything works fine, we can move forward and export the Web Application to be deployed in an standalone box.
 
 This Web Application interacts against the two backends used in the solution, it is Blockchain to store the expedients and the metadata of the documents, and the buckets of OCI storage for the documents content. So, we are going to test a couple of functionalities ensuring both backends (Blockchain and Bucket) are accessible through the Web Application.
