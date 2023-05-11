@@ -188,30 +188,38 @@ As you can see from the image, the ***Key Id*** is composed based in the followi
 ```
    <Tenancy-OCID>/<User-OCID>/<Key-Fingerprint>
 ``` 
-All this values can be obtained from the ***Configuration File Preview*** obtained when ***API Key*** was created in chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md)
+All this values can be obtained from the ***Configuration File Preview*** obtained when ***API Key*** was created in chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
 
-Now click in the *Camera* component and in the General tab uncheck **Video** check, as you'll have to take photos only. 
+***Private Key*** is the private key we Used/Generated/Downloaded (depending on the selected option) during the ***API Key*** creation.
 
-![](./images/vbs-app-config-04.png)
-  
-Then click in the *Button* component inside the Camera one. Change the Text field deleting the **/Video** part. Then Select **Call to Action** in the Chroming field and check *Full width* in Styling. 
-  
-|Field|Value|  
-|-|-|
-|Text|Take a Photo|
-|Chroming|Call To Action|
-|Styling| Full Width |
-  
-![](./images/vbs-app-config-05.png)
+ 3. ***Connection Type***: Must be set to ***Dynamic, the service supports CORS***.
 
-Click in the *Image* component and put in the **Width** field the first number of pixels located in the Viewport Resolution (for Samsung Galaxy S20 is **360** pixels).
-  
-![](./images/vbs-app-config-06.png)  
+Once set all these three properties has been configured propperly accordingly with your ***Bucket*** and ***API Key***, the Web Application is completely ready to interact with your Storage Bucket.
+
+Now, you can test the Application! 
 </details>
 <details>
-  <summary>3.3 Manage Component Visibility Using Conditions and Variables (click to show)</summary>
+  <summary>3.3 Test the application (click to show)</summary>
 
---- 
+We can test the application in the Visual Builder environment configured in our project. After we can see how everything works fine, we can move forward and export the Web Application to be deployed in an standalone box.  
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	--- 
   
 You can use a **bind-if** component to conditionally show or hide UI components in your visual application. Use **bind-if** to surround other components and set conditions to determine whether the components should be displayed on a page. In this lab you'll configure two **bind-if** components, one for each *Input Text* value. To manage the value of the **Input Text** components you'll have to create variables. These variables will be used in the events and actions to those events in future steps.
   
