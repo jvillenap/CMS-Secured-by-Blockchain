@@ -160,7 +160,7 @@ Click in the ***Servers*** tab.
   
 ![](./images/oci-vbs-21.png)
   
-In the Right side of the server configuration, Click on the Pencil icon to change the configuration of the ***fileUpload*** service Connection.
+In the Right side of the server configuration, Click on the ***Pencil*** icon to change the configuration of the ***fileUpload*** service Connection.
   
 ![](./images/oci-vbs-22.png)
 
