@@ -217,6 +217,13 @@ Login as an expedient manager, the user will be able to access to the expedients
 	... or create a new expedient, for which he/she will be the current custodian.
 	being able to add more documents into the expedient, or transfer the whole expedient to a different user/department.
 
+Let's try to create an expedient, and upload a document to it.
+
+First of all login as one of the users (cmsleg001, cmsfin001, or cmsrsk001) ensuring the role is set to ***Expedient Manager***.
+
+![](./images/oci-vbs-27.png)
+
+
 demo create new expedient
 
 In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
