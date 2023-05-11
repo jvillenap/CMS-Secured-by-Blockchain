@@ -180,7 +180,9 @@ The values ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be o
 
 ![](./images/oci-vbs-24.png)
 
- 2. 
+ 2. ***Authentication***: You mast ensure the method authentication is set to ***Oracle Cloud Infrastructure API Signature 1.0***, and the key is set by pushing the Pencil icon in the right side of the ***Key Id*** property:
+
+![](./images/oci-vbs-26.png)
 
 
 
