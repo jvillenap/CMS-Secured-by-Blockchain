@@ -150,9 +150,9 @@ Once changed all this parameters we can move forward to the next chapter!
 
 ### 3.2 Configure the OCI Storage Bucket.
 
-Now we are going to configure the bucket to be used by the Web Application based in the values of the API Key and Bukcet we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
+Now we are going to configure the bucket to be used by the Web Application based in the values of the API Key and Bucket we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
 
-First select the Services Connection Section (1), and then select the only existing Service Connection configured in the Web App ***fileUpload*** (2).
+First select the ***Services Connection*** Section (1), and then select the ***fileUpload*** Service Connection (2).
 
 ![](./images/oci-vbs-20.png)
 
