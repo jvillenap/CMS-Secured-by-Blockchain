@@ -116,7 +116,7 @@ First of all we need to recap all the information related with the Blockchain Ne
     https://<InstanceName>-<TenancyName>-<RegionID>.blockchain.ocp.oraclecloud.com:7443/
 ```
 
-When it is clear all this information, we can move forward and configure such parameters into our Web Application. It can be done opening the workspace we just created in Visual Builder Studio. So, first of all let's open the workspace by Accessing to our [Visual Builder Studio instance](#AccessVBS).  
+When it is clear all this information, we can move forward and configure such parameters into our Web Application. It can be done opening the workspace we just created in Visual Builder Studio. So, first of all let's open the workspace by Accessing to our [Visual Builder Studio instance](#AccessVBS), and open the project you created by clicking in the name of the project from the default page where you land  (***Organization***) when you access to VBS.
 
 ![](./images/vbs-app-01.png)
   
