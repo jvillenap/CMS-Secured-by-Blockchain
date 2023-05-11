@@ -92,8 +92,18 @@ In this chapter we are going to configure the provided Web Application to point 
   <summary>2.1 Configure the Blockchain Network (click to show)</summary>
   
 ### 2.1 Configure the Blockchain Network.
-When we created the Oracle Blockchain Network, we defined  
-  
+First of all we need to recap all the information related with the Blockchain Network we defined in the first chapter [Create an Oracle Blockchain Network
+](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md). If you followed the same terminology I've used in the HoL, following table shows this information:
+
+|Field|Value|  
+|-|-|
+|BC Endpoint|Take a Photo|
+|Instance|Call To Action|
+|Channel| Full Width |
+|Chaincode| Full Width |
+
+
+
 ![](./images/vbs-app-01.png)
   
 In *General Information* you must to write a descriptive name for your mobile app, like **MyMobilePhotoUpload_UserXX**. Then select none as mobile layout app, because in this workshop we won't create a navigation menu for the app as it has only one screen. Finally click **Next** button to continue.
