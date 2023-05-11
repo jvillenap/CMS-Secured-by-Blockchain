@@ -172,13 +172,13 @@ The configuration of the Service Connection used to interact with our bucket nee
 ```
    https://objectstorage.<region-name>.oraclecloud.com/n/<storage-namespace>/b/<bucket-name>
 ```
+The tenancy related values can be retrieved by accessing to the ***Teancy Details*** Page from the OCI Console. You can reach this page from the OCI Console by pushing the ***Profile*** (1) icon in the top-right side of the console, and selecting the ***Tenancy Details*** (2) menu option:
+
+![](./images/oci-vbs-25.png)
+
 The values ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from the ***Tenancy Details*** page:
 
 ![](./images/oci-vbs-24.png)
-
-You can reach the ***Teancy Details*** Page from the OCI Console by pushing the ***Profile*** (1) icon in the top-right side of the console, and selecting the ***Tenancy Details*** (2) menu option:
-
-![](./images/oci-vbs-25.png)
 
  2. 
 
