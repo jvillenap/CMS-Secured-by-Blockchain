@@ -130,81 +130,19 @@ First select the Web App Section (1), and then select the only existing Web App 
 
 ![](./images/oci-vbs-16.png)
 
-In *General Information* you must to write a descriptive name for your mobile app, like **MyMobilePhotoUpload_UserXX**. Then select none as mobile layout app, because in this workshop we won't create a navigation menu for the app as it has only one screen. Finally click **Next** button to continue.
-  
-![](./images/vbs-app-02.png)
-  
-Keep **Custom** layout selected (empty layout) and click **Create** button to create you mobile app.
-  
-![](./images/vbs-app-03.png)
+Once Opened the application, move to the ***variables*** tab.
 
-Now you should have created the visual builder mobile application environtment/sandbox to continue creating your mobile app. You should see the *Page Designer* selected with a simple mobile layout in the Design window.
+![](./images/oci-vbs-17.png)
   
-![](./images/vbs-app-04.png)
-  
-You can change the mobile appearance (iphone, google pixel, samsung or tablet), show or hide the bezel or change the mobile size. In the tutorial we select Samsung Galaxy S20 layout, but you can select whatever you want (default layout is for iphone mobile phones).
-  
-![](./images/vbs-app-05.png)
-  
-Click in **Page Title** to select the *Mobile Page Template* properties. Then change the page title to a descriptive one like **Take a Photo to OCI App**
-  
-![](./images/vbs-app-06.png)
-  
-Select **Flex Container** layout to change it.
-  
-![](./images/vbs-app-07.png)
-  
-Change the *Display Settings* to **Grid** layout.
-  
-![](./images/vbs-app-08.png)
-  
-Scroll down in the Components menu to Layout and drag and drop **Form Layout** to the Design window.
-  
-![](./images/vbs-app-09.gif)
-  
-Scroll up or search an **Input Text** component and drag and drop to the Design window, inside the *Form Layout*.
-  
-![](./images/vbs-app-10.gif)
-  
-Now you will add other **Input Text** but you'll drop it in the Structure menu instead of drop it over the Design window. Drag and Drop over the Structure menu gives you more control when you are creating the mobile layout.
-  
-![](./images/vbs-app-11.gif)
-  
-Next you will add a **Horizontal Rule** from *Layout* components to the Design window.
-  
-![](./images/vbs-app-12.png)
-  
-Now you have to scroll down and add an **If** component from *Layout* menu to the Structure tree. 
-> Note: This component will allow you to compose match rules to create different behaviours according to that rules. In this workshop you will use the **If** component to show or hide the *take photo button*, that you'll have to add to the Design window in next steps.
-  
-![](./images/vbs-app-13.gif)
-  
-Add other **If** component more to the *Structure tree*, but this time you have to add it inside (nested) the last *If* that you created before.
-> Note: You have to create two nested if components, one for each **Input Text** added before.
+And change the default value of the variables ***bcEndpoint***, ***bcInstance***, ***chaincode***, and ***channel***. It can be done easily just pushing the ***f(x)*** simbol in the top-left corner of the ***Default Value*** attribute on each of the variables.
 
-![](./images/vbs-app-14.gif)
-  
-Next you have to add a **Grid Container** component from *Layout* menu, nested to the last *if* component in the *Structure* tree. Drag the **Grid Container** component and drop it inside the last **Bind If**.
-> Note: The Grid Container (show as *Grid Row* in the Structure tree) will contain the next components that you have to crete and you'll use it to show or hide its content according to the match rules that you will create in the *If* components in future steps.
-  
-![](./images/vbs-app-15.png)
-  
-Now you have to add a **Camera** Component from *Common* menu, nested to the Grid Row that you create in the last step.
-> Note: The Camera component is made up of three components: a **File Picker** and a **Button** with an **Icon**. The File Picker component will have a special behaviour as the action that it will execute, will be triggered by the button instead of the own File Picker component.
-  
-![](./images/vbs-app-16.gif)
-  
-Next add other **Horizontal Rule** component from *Layout* components menu as a separator. You must drag the **Horizontal Rule** and drop inside the **Camera** component in the *Structure* tree.
-  
-![](./images/vbs-app-17.gif)
-  
-Last Layout component will be an **Image** one. Drag the **Image** component from the *Common* components menu and Drop inside the **Grid Row**. **Image** component should be at the same level as the **Camera** component.
-  
-![](./images/vbs-app-18.gif)
+![](./images/oci-vbs-18.png)
 
-Now you should have a Structure tree similar to the next screenshot. You can move components in the Structure tree if your layout structure is different.
+Once selected any of the variables, and expression editor will be opened, where you will be able to set propperly the value of each property based in your environment.
   
-![](./images/vbs-app-19.png)
+![](./images/oci-vbs-19.png)
+
+Once changed all this parameters we can move forward to the next chapter!
   
 </details>
 <details>
