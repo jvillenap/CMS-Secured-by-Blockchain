@@ -102,7 +102,11 @@ First of all we need to recap all the information related with the Blockchain Ne
 |Channel | wedocms |
 |Chaincode | WEDOCMS |
 
-> Note: BC Endpoint is composed by some OCI tenancy values as we can see in this URL https://<Instance-Name>-<TenancyName>-<RegionID>.blockchain.ocp.oraclecloud.com:7443/
+> Note: BC Endpoint is composed by some OCI tenancy values as we can see in the following URL:
+
+```
+    https://<InstanceName>-<TenancyName>-<RegionID>.blockchain.ocp.oraclecloud.com:7443/
+```
 
 ![](./images/vbs-app-01.png)
   
