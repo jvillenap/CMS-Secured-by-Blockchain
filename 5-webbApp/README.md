@@ -86,14 +86,13 @@ Once provided all the details, push the ***Import*** button.
 
 ## 2. Import the provided application into Visual Builder Studio
 In this chapter we are going to configure the provided Web Application to point to the Blockchain Instance we created in the chapter [Create an Oracle Blockchain Network
-](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md), and to point the Object Storage Bucket we created in the chapter [Creation and Configuration of the OCI Storage Bucket
-](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
+](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md), and to point the Object Storage Bucket we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
 
 <details>
   <summary>2.1 Configure the Blockchain Network (click to show)</summary>
   
 ### 2.1 Configure the Blockchain Network.
-Now you will create the mobile layout adding several components that you will use and combine in future sections to create the mobile application. Click in the **mobile icon** in the top left menu and then click **+ Mobile Application** button to create a mobile application.
+When we created the Oracle Blockchain Network, we defined  
   
 ![](./images/vbs-app-01.png)
   
