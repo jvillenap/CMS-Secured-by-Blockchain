@@ -239,7 +239,7 @@ We can double-check if the transaction has been executed properly accessing to t
 
 ![](./images/oci-vbs-32.png)
 
-Now, let's see if we can upload a document in the newly created expedient.
+Now, let's see if we can upload a document into the newly created expedient.
 
 	
 demo create new expedient
