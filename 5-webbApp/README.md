@@ -235,7 +235,11 @@ In a few seconds, if the transctions is commited following message should appear
 
 ![](./images/oci-vbs-31.png)
 
+We can double-check if the transaction has been executed properly accessing to the Oracle Blockchain Service console, navigate to the ***Channels*** tab, select the ***wedocms*** channel, and check the content on the last block save into the ledger. It should contain the request to execute the transaction we have just executed:
 
+![](./images/oci-vbs-32.png)
+
+Now, let's see if we can upload a document in the newly created expedient.
 
 	
 demo create new expedient
