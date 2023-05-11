@@ -168,11 +168,11 @@ The configuration of the Service Connection used to interact with our bucket nee
 
 ![](./images/oci-vbs-23.png)
 
- 1. ***Instance URL***: It needs to be changed to point to your Bucket based in the name of your tenancy and the name you gave to the bucket when you created it. The URL must composed based in the following URL template:
+ 1. ***Instance URL***: It needs to be changed to point to your Bucket based in a couple of properties from your OCI tenancy and the name you gave to the bucket when you created it. The URL must be composed based in the following URL template:
 ```
    https://objectstorage.<region-name>.oraclecloud.com/n/<storage-namespace>/b/<bucket-name>
 ```
-   ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from the ***Tenancy Details*** page:
+ 	  ***Region Name*** (1) and ***Object Storage Namespace*** (2) can be obtained from the ***Tenancy Details*** page:
 
 ![](./images/oci-vbs-24.png)
 
