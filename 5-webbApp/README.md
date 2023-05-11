@@ -219,11 +219,25 @@ Login as an expedient manager, the user will be able to access to the expedients
 
 Let's try to create an expedient, and upload a document to it.
 
-First of all login as one of the users (cmsleg001, cmsfin001, or cmsrsk001) ensuring the role is set to ***Expedient Manager***.
+First of all login as one of the users (cmsleg001, cmsfin001, or cmsrsk001) ensuring the role is set to ***Expedient Manager***, and push the ***Login*** button.
 
-![](./images/oci-vbs-27.png)
+![](./images/oci-vbs-28.png)
+
+In the ***Expedient Management*** page, push the ***New Expedient*** button.
+
+![](./images/oci-vbs-29.png)
+
+Assign values to the three input fields (***Expedient Type***, ***Description***, and ***Customer ID***) and click in the ***Create Expedient*** button.
+
+![](./images/oci-vbs-30.png)
+
+In a few seconds, if the transctions is commited following message should appear in the page:
+
+![](./images/oci-vbs-31.png)
 
 
+
+	
 demo create new expedient
 
 In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
