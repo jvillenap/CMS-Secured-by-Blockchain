@@ -92,7 +92,7 @@ Once provided all the details, push the ***Import*** button.
 <details>
   <summary>3. Configure the Web Application to point to your Blockchain instance and your Storage Bucket (click to show)</summary>
 
-## 3. Import the provided application into Visual Builder Studio
+## 3. Configure the Web Application to point to your Blockchain instance and your Storage Bucket
 In this chapter we are going to configure the provided Web Application to point to the Blockchain Instance we created in the chapter [Create an Oracle Blockchain Network
 ](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/1-create-network/README.md), and to point the Object Storage Bucket we created in the chapter [Creation and Configuration of the OCI Storage Bucket](https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/4-bucket/README.md).
 
