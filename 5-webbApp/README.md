@@ -204,11 +204,13 @@ Now, you can test the Application!
 <details>
   <summary>4. Test your Web Application (click to show)</summary>
 
-Now you can test the application in the Visual Builder environment configured in our project. After we can see how everything works fine, we can move forward and export the Web Application to be deployed in an standalone box.  
+Now you can test the application from the Visual Builder environment configured in our project. After we can see how everything works fine, we can move forward and export the Web Application to be deployed in an standalone box.
 
+This Web Application interacts against the two backends used in the solution, it is Blockchain to store the expedients and the metadata of the documents, and the buckets of OCI storage for the documents content. So, we are going to test a couple of functionalities ensuring both backends (Blockchain and Bucket) are accessible through the Web Application.
 
-...This VB application interacts against the two backends used in the solution, it is BC and the buckets of OCI storage, using IC as interface to decouple the business logic
-	from the navigation and presentation layers.  
+To test the application, push the ***Preview*** icon in the top-right corner of the Visual Studio Workspace.
+
+![](./images/oci-vbs-27.png)
 
 Login as an expedient manager, the user will be able to access to the expedients for which he/she is the current owner, 
 	... or create a new expedient, for which he/she will be the current custodian.
