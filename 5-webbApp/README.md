@@ -322,6 +322,9 @@ Clicking on ***build-assets.zip*** the package will be downloaded into our machi
 
 ## 6. Execute the exported package into an Apache Tomcat
 The ***built-assets.zip*** package can be deployed to be served directly by an Apache Tomcat Server. Here you have the steps to do it:
+---
+> IMPORTANT: ....	Apache NGINX....
+---
 
 First of all you need to install Apache Tomcat Server in your laptop, once installed, start it and check it works by trying to access to the URL: http://localhost:8080
 
