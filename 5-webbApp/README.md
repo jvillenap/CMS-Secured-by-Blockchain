@@ -274,7 +274,7 @@ A Visual Builder application if meets some conditions, can be executed outside o
 	
 2. [Running Visual Builder Apps Outside of Visual Builder](https://blogs.oracle.com/vbcs/post/vboutside)
 
-	
+To perform the export of the application, first of all we must pull the changes
 This Web Application interacts against the two backends used in the solution, it is Blockchain to store the expedients and the metadata of the documents, and the buckets of OCI storage for the documents content. So, we are going to test a couple of functionalities ensuring both backends (Blockchain and Bucket) are accessible through the Web Application.
 
 To test the application, push the ***Preview*** icon in the top-right corner of the Visual Studio Workspace.
