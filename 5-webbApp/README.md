@@ -304,11 +304,17 @@ After pushing the button ***Add Credentials and Continue*** and following pop-up
 
 ![](./images/oci-vbs-44.png)
 
-Clicking in the ***Open Job*** button, we will be able to see which is the status of the generation of the build package to be used to be deployed externally.
+Clicking in the ***Open Job*** button, we will be reirected to the ***Build*** Section of Visual Builder Studio, where we will be able to see which is the status of the generation of the build package to be used to be deployed externally.
 
+< NOTE: Completion of the build job should not take more than 2-3 minutes, although the job could take longer in case there is no ***Build Executor*** ready to pickup our job. It can occur if this is the first time we execute the job, because the Build Executor is creating or starting.
 
+![](./images/oci-vbs-45.png)
 
+In this page we can see if the job has been execute properly (1), and going to the ***Artifacts***, we will be able to see the generated package. 
 
+![](./images/oci-vbs-46.png)
+       
+Clicking on ***build-assets.zip*** the package will be downloaded into our machine, so the exportable package is ready to be deployed outside of Visual Builder!
 
 </details>
 
