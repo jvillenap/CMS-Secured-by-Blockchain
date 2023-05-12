@@ -317,4 +317,15 @@ In this page we can see if the job has been execute properly (1), and going to t
 Clicking on ***build-assets.zip*** the package will be downloaded into our machine, so the exportable package is ready to be deployed outside of Visual Builder!
 
 </details>
+<details>
+  <summary>6. Execute the exported package into an Apache Tomcat Server (click to show)</summary>
 
+## 6. Execute the exported package into an Apache Tomcat
+The ***built-assets.zip*** package can be deployed to be served directly by an Apache Tomcat Server. Here you have the steps to do it:
+
+First of all you need to install Apache Tomcat Server in your laptop, once installed, start it a check it works as shown in the following picture.
+
+![](./images/oci-vbs-47.png)
+	
+
+</details>
