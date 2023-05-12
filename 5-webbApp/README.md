@@ -278,6 +278,20 @@ To perform the export of the application, first of all we must push the changes 
 
 ![](./images/oci-vbs-38.png)
 
+Write a message about the performed changes, and click on the ***Commit all and Push*** button.
+
+![](./images/oci-vbs-39.png)
+
+Folowing pop-up message should appear un a few seconds:
+
+![](./images/oci-vbs-40.png)
+
+At this point we can publish our application, and this action will trigger a build job to optimize the application to be executed in the best conditions. We can publish the application by clicking the ***Publish*** button in the top-right corner of the Workspace page:
+
+![](./images/oci-vbs-41.png)
+
+
+It will mean 
 
 </details>
 
