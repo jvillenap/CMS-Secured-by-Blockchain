@@ -282,6 +282,8 @@ Write a message about the performed changes, and click on the ***Commit all and 
 
 ![](./images/oci-vbs-39.png)
 
+First time this job is executed, it use to take several minutes waitting for a ***Build Executor***, but once the ***Build Executor*** picks up the job, it should be executed in no more than 3 minutes.
+
 Folowing pop-up message should appear un a few seconds:
 
 ![](./images/oci-vbs-40.png)
