@@ -323,9 +323,23 @@ Clicking on ***build-assets.zip*** the package will be downloaded into our machi
 ## 6. Execute the exported package into an Apache Tomcat
 The ***built-assets.zip*** package can be deployed to be served directly by an Apache Tomcat Server. Here you have the steps to do it:
 
-First of all you need to install Apache Tomcat Server in your laptop, once installed, start it a check it works as shown in the following picture.
+First of all you need to install Apache Tomcat Server in your laptop, once installed, start it and check it works by trying to access to the URL: http://localhost:8080
 
 ![](./images/oci-vbs-47.png)
-	
 
+If you see the previous page, you are ready to install our Web Application in this Tomcat installation.
+
+Our application can be installed in Tommcat just decompressing the ***built-assets.zip*** package, and copying the content of the zip into a new folder created inside the ***<ApacheHome>/webapps*** folder.
+```
+	cd /installed/apache-tomcat-9.0.74/webapps
+	mkdir WEDOCMS
+	cd WEDOCMS
+	unzip ~/Descargas/built-assets.zip
+```
+
+Once deployed our application inside the webapps foler of our Tomcat installation, we can restart Tomcat, and try to access to the following URL:
+```
+	[http://localhost:8080/WEDOCMS/webApps/docmngmt](http://localhost:8080/WEDOCMS/webApps/docmngmt/)
+```
+Now we can test the application in our local environment!
 </details>
