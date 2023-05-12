@@ -290,8 +290,23 @@ At this point we can publish our application, and this action will trigger a bui
 
 ![](./images/oci-vbs-41.png)
 
+You will be asked to decide the merge policy for the changes done in the application, and after that you should click the ***Publish button***.
 
-It will mean 
+![](./images/oci-vbs-42.png)
+
+You will be asked to provide your credentials:
+
+![](./images/oci-vbs-43.png)
+
+After pushing the button ***Add Credentials and Continue*** and following pop-up will appear:
+
+![](./images/oci-vbs-44.png)
+
+Clicking in the ***Open Job*** button, we will be able to see which is the status of the generation of the build package to be used to be deployed externally.
+
+
+
+
 
 </details>
 
