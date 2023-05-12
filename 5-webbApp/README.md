@@ -253,11 +253,14 @@ Select a ***Document Type*** (1), give a value to the ***Document Name*** field 
 
 ![](./images/oci-vbs-35.png)
 
+If the document gets uploaded properly, following confirmation message should appear:
 
+![](./images/oci-vbs-36.png)
 
-In any moment we can access to the Oracle Blockchain Service console to see how all the actions performed against the ledger, has been persisted in real time.
+We can review again in the ***Oracle Blockchain console*** if this new transaction has been executed, and also if the document has been uploaded into the OCI Storage Bucket:
 
-Also we can double-check if the uploaded document has been saved as object into the bucket of our tennacy.
+![](./images/oci-vbs-37.png)
+
 
 
 Login as a document reviewer, any user who has access to the app
