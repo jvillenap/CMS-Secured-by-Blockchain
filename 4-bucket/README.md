@@ -112,3 +112,4 @@ And finally, pushing in the Objects menu option in the lef menu, you can see the
 And that's all. Congratulations. You have successfully created the OCI Storage Bucket.
 
 </details>
+> Note: If you have more interest in how to code a Visual Builder application to upload/download files from an OCI Storage Bucket, check this interesting [Upload / Download files from OCI Storage in a Visual Builder app](https://blogs.oracle.com/vbcs/post/vboutside) blog entry.
