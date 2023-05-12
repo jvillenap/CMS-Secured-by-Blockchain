@@ -269,9 +269,12 @@ Login as a document reviewer, any user who has access to the app will be able to
 
 ## 5. Export the application to be executed in a standalone machine
 A Visual Builder application if meets some conditions, can be executed outside of the context of Visual Builder. To see what conditions must meet the application to be able to run outside of Visual Builder instance, check the following blogs:
+	
 	1. [Running Visual Builder Apps On Other Servers (and On-Premises)](https://blogs.oracle.com/vbcs/post/running-visual-builder-apps-on-other-servers-and-on-premises)
+	
 	2. [Running Visual Builder Apps Outside of Visual Builder](https://blogs.oracle.com/vbcs/post/vboutside)
 
+	
 This Web Application interacts against the two backends used in the solution, it is Blockchain to store the expedients and the metadata of the documents, and the buckets of OCI storage for the documents content. So, we are going to test a couple of functionalities ensuring both backends (Blockchain and Bucket) are accessible through the Web Application.
 
 To test the application, push the ***Preview*** icon in the top-right corner of the Visual Studio Workspace.
