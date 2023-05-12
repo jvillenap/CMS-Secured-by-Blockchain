@@ -339,7 +339,7 @@ Our application can be installed in Tommcat just decompressing the ***built-asse
 
 Once deployed our application inside the webapps foler of our Tomcat installation, we can restart Tomcat, and try to access to the following URL:
 ```
-	[http://localhost:8080/WEDOCMS/webApps/docmngmt](http://localhost:8080/WEDOCMS/webApps/docmngmt/)
+	http://localhost:8080/WEDOCMS/webApps/docmngmt/
 ```
 Now we can test the application in our local environment!
 </details>
