@@ -213,7 +213,7 @@ To test the application, push the ***Preview*** icon in the top-right corner of 
 
 ![](./images/oci-vbs-27.png)
 
-Login as an expedient manager, the user will be able to access to the expedients for which he/she is the current owner, 
+Login into the application as an expedient manager, the user will be able to access to the expedients for which he/she is the current owner, 
 	... or create a new expedient, for which he/she will be the current custodian.
 	being able to add more documents into the expedient, or transfer the whole expedient to a different user/department.
 
@@ -264,3 +264,20 @@ We can review again in the ***Oracle Blockchain console*** if this new transacti
 Login as a document reviewer, any user who has access to the app will be able to review documents uploaded from any expedient.
 
 </details>
+<details>
+  <summary>5. Export the application to be executed in a standalone machine (click to show)</summary>
+
+## 5. Export the application to be executed in a standalone machine
+A Visual Builder application if meets some conditions, can be executed outside of the context of Visual Builder. To see what conditions must meet the application to be able to run outside of Visual Builder instance, check the following blogs:
+	1. [Running Visual Builder Apps On Other Servers (and On-Premises)](https://blogs.oracle.com/vbcs/post/running-visual-builder-apps-on-other-servers-and-on-premises)
+	2. [Running Visual Builder Apps Outside of Visual Builder](https://blogs.oracle.com/vbcs/post/vboutside)
+
+This Web Application interacts against the two backends used in the solution, it is Blockchain to store the expedients and the metadata of the documents, and the buckets of OCI storage for the documents content. So, we are going to test a couple of functionalities ensuring both backends (Blockchain and Bucket) are accessible through the Web Application.
+
+To test the application, push the ***Preview*** icon in the top-right corner of the Visual Studio Workspace.
+
+![](./images/oci-vbs-27.png)
+
+
+</details>
+
