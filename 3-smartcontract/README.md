@@ -13,7 +13,7 @@ In this chapter we are going to explain the steps to create the smartcontract in
 
 First of all we need to define the entities to be stored and managed in Blockchain. Basically the entities modeled in this picture:
 <p align="center">
-<img width="737" height="223" src="./images/1_WEDO_CMS_EntityRel.drawio.png"/>
+<img src="./images/1_WEDO_CMS_EntityRel.drawio.png"/>
 </p>
 
 In the Smartcontract will be defined all these entities and their relations, and also all the logic required to manage and interact with the entities, and also to persist them into the blockchain ledger.
