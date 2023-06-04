@@ -1,5 +1,5 @@
 assets:
-    - name: expedientNFT
+    - name: folderNFT
       type: token
       symbol: eDocs
       standard: erc721+
@@ -15,14 +15,16 @@ assets:
         - roles:
             minter_role_name: minter
       properties:
+          - name: folderHASH
+            type: string
           - name: documents
             type: document[]
       metadata:
-          - name: expedientID
+          - name: folderID
             type: string
             mandatory: true
             id: true
-          - name: expedientType
+          - name: folderType
             type: string
             mandatory: true
       methods:
@@ -62,6 +64,8 @@ assets:
         others: [getHistoryById, getByRange]
 customMethods:
     - executeQuery
-    - "attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[])" # Attach a document to an existing expedient. 
-    - "retrieveDocuments(tokenId: string)" # Retrieve Documents of an expedient. 
-    - "transferExpedient(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string)" # Transfer the expedient among participants. 
+    - "attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[])" # Attach a document to an existing folder. 
+    - "retrieveDocuments(tokenId: string)" # Retrieve Documents of an folder. 
+    - "transferFolder(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string)" # Transfer the folder among participants. 
+    - "updateFolderHASH(tokenId: string, newHash: string)" # Update HASH folder 
+    - "getFolderHASH(tokenId: string)" # Check HASH folder 
