@@ -18,7 +18,7 @@ First of all we need to define the entities to be stored and managed in Blockcha
 
 In the Smartcontract will be defined all these entities and their relations, and also all the logic required to manage and interact with the entities, and also to persist them into the blockchain ledger.
 
-As already explained, the ***expedient*** will be represented as an NFT token, so it will be developed and initialized as and NFT. The other dependent entinties (Docuemnts and Properties), are standard entities and are child entities of the expedient, so it will be developed as standrd entieties with out the need of initialize in any sense.
+As already explained, the ***folder*** will be represented as an NFT token, so it will be developed and initialized as and NFT. The other dependent entinties (Docuemnts and Properties), are standard entities and are child entities of the folder, so it will be developed as standrd entieties with out the need of initialize in any sense.
 
 Once the smatcontract gets created, we will install and deploy it in the Blockchain Network created in the first chapter.
 
@@ -29,11 +29,11 @@ Once you have AppBuilder ready to be used, you can begin to create what is named
 
 ```yaml
 #
-# Token asset to manage the complete lifecycle of a non-fungible token representing an expedient to hold docuements. 
-# This specification file will generate an Smartcontract project with a non-fungible token for the expedients to be maintained by the users.
+# Token asset to manage the complete lifecycle of a non-fungible token representing a folder to hold docuements. 
+# This specification file will generate an Smartcontract project with a non-fungible token for the folders to be maintained by the users.
 #
 assets:
-    - name: expedientNFT
+    - name: folderNFT
       type: token
       symbol: eDocs
       standard: erc721+
@@ -49,14 +49,16 @@ assets:
         - roles:
             minter_role_name: minter
       properties:
+          - name: folderHASH
+            type: string
           - name: documents
             type: document[]
       metadata:
-          - name: expedientID
+          - name: folderID
             type: string
             mandatory: true
             id: true
-          - name: expedientType
+          - name: folderType
             type: string
             mandatory: true
       methods:
@@ -96,21 +98,22 @@ assets:
         others: [getHistoryById, getByRange]
 customMethods:
     - executeQuery
-    - "attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[])" # Attach a document to an existing expedient. 
-    - "retrieveDocuments(tokenId: string)" # Retrieve Documents of an expedient. 
-    - "transferExpedient(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string)" # Transfer the expedient among participants. 
-
+    - "attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[])" # Attach a document to an existing folder. 
+    - "retrieveDocuments(tokenId: string)" # Retrieve Documents of an folder. 
+    - "transferFolder(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string)" # Transfer the folder among participants. 
+    - "updateFolderHASH(tokenId: string, newHash: string)" # Update HASH folder 
+    - "getFolderHASH(tokenId: string)" # Check HASH folder 
 ```
 
 You can download this specification file from [WEDOCMS.yml](./src/WEDOCMS.yml). 
 
-In this specification file, in the first entity defined (expedientNFT) you can see all the sections and attributes for a representation of an NFT token. Just as a first overview of the sections defined in the file: 
+In this specification file, in the first entity defined (folderNFT) you can see all the sections and attributes for a representation of an NFT token. Just as a first overview of the sections defined in the file: 
 - ***Assets***: Place where the different assets (standard entities, FTs, NFTs) are defined. Inside each of the assets we can distingish different sections which can vary depending on the kind of represented asset. For NFTs and FTs these are the different subsections:
   - ***Type/Symbol/Standard***: You must indicate in these properties that this token is based in the ERC-721 Standard, and give to it a unic symbol indentifier.
   - ***Anatomy***: In this section you specify it is a non-fungible token (NFT) and whether it would be subdivided into smaller fractions (nowadays "whole" is the only option for NFT tokens).
   - ***Behavior***: In this section is where must be defined if the token can be minted, and in such case, which is the maximum number of mintable tokens. Here you must also state it is an indivisible token, if is singleton for each class, transferable, and burnable which is similar to its deletion, but not disapearing, so it is still there but not usable at all. Also in this section you can restrict token behaviors to specific roles.
   - ***Metadata***: This section define a sort of prpoperties which must be set during token creation, and can not be changed in the future. So its value will remain inmutable for the whole life of the token.
-  - ***Properties***: Standard attributes of the token which can vary during the life of the token, like the array of documents who compose the expedient. 
+  - ***Properties***: Standard attributes of the token which can vary during the life of the token, like the array of documents who compose the folder. 
 - ***customMethods***: location where the list of our custom methods must be defined. For those methods AppBuilder will only generate the signature of the method, without any implementation on them. The implementation of these methods are the only code the be implemented by the developer.
 
 In the following link you can see how to configure any kind of entity (NFT, FT, or standard entities) based in your business needs:
@@ -337,7 +340,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 <img width="1001" height="605" src="./images/4-nft-2-17.png"/>
 </p>
 
-3. We can set which user is allowed to mint tokens, in this case ***mint a token*** means create a new expedient to hold a new set of documents, so you can decide which of the three existing users (cmsleg001, cmsfin001, or cmsrsk001) can execute this actions, and for those users execute the request ***Step-2: AddRole*** from the Postman colletion:
+3. We can set which user is allowed to mint tokens, in this case ***mint a token*** means create a new folder to hold a new set of documents, so you can decide which of the three existing users (cmsleg001, cmsfin001, or cmsrsk001) can execute this actions, and for those users execute the request ***Step-2: AddRole*** from the Postman colletion:
   - Sample Request Payload
 
 ```JSON
