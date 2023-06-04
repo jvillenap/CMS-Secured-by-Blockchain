@@ -3,7 +3,7 @@
   public async attachDocument(tokenId: string, docName: string, docURL: string, docHASH: string, docType: string, docProps: string[], docVals: string[]) {
     try {
         const token = await this.Ctx.ERC721Token.get(tokenId);
-        const t = new ExpedientNFT(token);
+        const t = new FolderNFT(token);
 
         const d = new Document({
             docName: docName,
@@ -24,11 +24,11 @@
         //Save the new document in BC
         await this.Ctx.Model.save(d);
         
-        //Add the document to the array of documents belonging to the Expedient
+        //Add the document to the array of documents belonging to the Folder
         t.documents.push(d);
         await this.Ctx.ERC721Token.updateToken(t);
         
-        var msg = `Document : '${docName}' has been attached to expedient : '${tokenId}`;
+        var msg = `Document : '${docName}' has been attached to folder : '${tokenId}`;
         
         return msg;
     }
@@ -47,20 +47,20 @@
     }
 }
   @Validator(yup.string(), yup.string(), yup.string(), yup.string(), yup.string())
-  public async transferExpedient(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string) {
+  public async transferFolder(tokenId: string, fromOrgId: string, fromUserId: string, toOrgId: string, toUserId: string) {
     try {
         const token = await this.Ctx.ERC721Token.get(tokenId);
-        const t = new ExpedientNFT(token);
+        const t = new FolderNFT(token);
         //t.contractStartTime = contractStartTime;
         //t.contractEndTime = contractEndTime;
-        var msg = `Expedient Token ID : '${tokenId}' has not been transferred'`;
+        var msg = `Folder Token ID : '${tokenId}' has not been transferred'`;
         
         const from_account_id = await this.Ctx.ERC721Account.generateAccountId(fromOrgId, fromUserId);
         const to_account_id = await this.Ctx.ERC721Account.generateAccountId(toOrgId, toUserId);
         
         await this.Ctx.ERC721Token.transferFrom(from_account_id, to_account_id, t);
         
-        msg = `Expedient Token ID : '${tokenId}' has been successfully transferred to UserID : '${toUserId}'`;
+        msg = `Folder Token ID : '${tokenId}' has been successfully transferred to UserID : '${toUserId}'`;
         return msg;
     }
     catch (error) {
