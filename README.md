@@ -39,18 +39,18 @@ it is important to highlight that, among the information stored in blockchain fo
 
 if someone modifies the document from its external location, in our case a bucket in OCI Storage, next time someone tries to retrieve the document, the verfication based on validity of the hash will fail, so the user will be notified for the tampering of the document.
 
-Regarding with the functional use case, the assets we are going to develop simulates an expedient management solution for a financial institution, in which each expedient represents a financial operation for a customer, and the expedient is acting as an archive where a sort of documents related with the operation are managed as a whole. 
+Regarding with the functional use case, the assets we are going to develop simulates an content management solution for a financial institution, in which each folder represents a financial operation for a customer, and the folder is acting as an archive where a sort of documents related with the operation are managed as a whole. 
 	
-The expedient is represented into blockchain as a non fungible token (NFT), because this kind of tokens fit really well in situations where one key aspect is the ownership of the asset. It means we can define the different kind of actions which can be executed against it depending on the role of the user accessing to the expedient. And the documents themselves are stored into a child array of the archive NFT entity. 
+The folder is represented into blockchain as a non fungible token (NFT), because this kind of tokens fit really well in situations where one key aspect is the ownership of the asset. It means we can define the different kind of actions which can be executed against it depending on the role of the user accessing to the foldern, and the documents themselves are stored into a child array of the archive NFT entity. 
 
 <p align="center">
 <img width="785" height="510" src="https://github.com/jvillenap/CMS-Secured-by-Blockchain/blob/main/images/2_documentWorkflow.png"/>
 </p>
 
 There will be two different roles to access to the documents through the application:
-* ***Expedient Manager***: If the user who accesses to the expedient is its current owner (or custodian), the user will be able to update the documents on the expedient, and also will be granted to perform a transfer of the expedient to a different user/department.
+* ***Folder Manager***: If the user who accesses to the folder is its current owner (or custodian), the user will be able to update the documents on the folder, and also will be granted to perform a transfer of the folder to a different user/department.
 
-* ***Document Reviewer***:In the other hand, if the user who accesses to the expedient, is not its current owner or custodian, the user will only be granted to review the existing documentation of the expedient.
+* ***Document Reviewer***:In the other hand, if the user who accesses to the folder is not its current owner or custodian, the user will only be able to review the existing documentation of the folder.
 
 If you are interested in know a little bit more about NFTs, check the [Using NFT and FT Tokens in Oracle Blockchain](https://github.com/jvillenap/Using-NFT-and-FT-Tokens-in-Oracle-Blockchain/blob/main/README.md "Using NFT and FT Tokens in Oracle Blockchain") HoL, in which you can deploy your first Smartcontract handling Fungible and Non-Fungible tokens on Hyperledger Fabric, and test them really easily.
 
