@@ -162,7 +162,7 @@ We are going to create the users ***cmsrsk1***, who belongs to the Risks Departm
 ## Create Enrollments in the REST Proxy nodes
 Oracle Blockchain Platform supports enrollments to the REST proxy. These enrollments are used in chaincodes where FT or NFT tokens exist, to map the identity of the caller to the role executing the transaction. To do this, you just need to create the relation of the user to the role defined in blockchain, and for simplicity you can name the role as the user.
 
-Each enrollment must be created in the instance(s) where the user with such role are allowed to execute transactions trhough the REST Proxy on that Blockchain instance, so enrollment ***cmsrsk1*** assigned to the user ***cmsrsk001*** needs to be created in the REST Proxy node of the org1  (founder) instance, and the same for the other two users:
+Each enrollment must be created in the instance where the user with such role are allowed to execute transactions trhough the REST Proxy on that Blockchain instance, so enrollment ***cmsrsk1*** assigned to the user ***cmsrsk001*** needs to be created in the REST Proxy node of the org1  (founder) instance, and the same for the other two users:
 | username        | enrollment    | Instance      |
 | --------------- |:-------------:| ------------- |
 | cmsrsk001       | cmsrsk001     |     org1      |
