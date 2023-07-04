@@ -319,7 +319,7 @@ The following API REST calls correspond to the calls into the ***AdminSteps*** f
 <img width="996" height="674" src="./images/4-nft-2-16.png"/>
 </p>
 
-2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account***. For the specifics of our use case there is only three users related with the same single organization belonging to the network.
+2. We must create user accounts for all the users who can be custodians of the NFT assets representing the physical assets. It can be done by executing the ***Step-1: Create account*** Postman request. For the specifics of our use case there is only three users related with the same single organization belonging to the network.
    - This call must be executed as many times as users for which we want to create an account. In our case 3 times, each with following params:
      - "createAccount", "org1", "cmsleg001", "nonfungible"
      - "createAccount", "org1", "cmsfin001", "nonfungible"
