@@ -282,7 +282,7 @@ First of all we need to know which is the endpoint in which the REST API is acce
 <img width="966" height="611" src="./images/4-nft-2-15.png"/>
 </p>
 
-Remmember that enrollments are created at instance level, not network level, so the enrollment for cmsleg001 user will be only available through the restproxy URL of the founder instance, so, if new instances join the network, with new users allowed to access to the network, those users will need to exist in the proper tenancy, and the enrollments for those users should also be created in the restproxy of the corresponding instance. Following table shows the user to be used depending on the instance you are going to access:
+Remmember that enrollments are created at instance level, not network level, so the enrollment for cmsleg001 user will be only available through the restproxy URL of the founder instance, so, if new instances join the network, with new users allowed to access to the network, those users will need to exist in the proper tenancy, and the enrollments for those users should also be created in the restproxy of the corresponding instance. Following table shows the user to be used initialy in the founder instance:
 | username        | Instance URL          |
 | --------------- |-----------------------|
 | cmsleg001       | https://org1-....     |
