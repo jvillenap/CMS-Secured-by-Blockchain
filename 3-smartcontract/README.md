@@ -148,7 +148,7 @@ Once the Specification file has been created we can mandate AppBuilder to create
 <img width="479" height="406" src="./images/4-nft-2-4.png"/>
 </p>
 
-5. If everything goes fine, we should se a green message in the wizard. If this is not the case we should check the output generated during the creation of the scaffold of the project:
+5. If everything goes fine, we should see a green message in the wizard. If this is not the case we should check the output generated during the creation of the scaffold of the project:
 <p align="center">
 <img width="493" height="422" src="./images/4-nft-2-5.png"/>
 </p>
