@@ -70,7 +70,7 @@ You should have a new API key created and you should see the Fingerprint key in 
 
 ![](./images/oci-apikey-09.png)
 
-You have access to the Config file that you copied before to your desktop by clicking in the *three vertical* dots in the Fingerprint row and select **View Config File**.
+You have access to the Config file that you copied before to your desktop by clicking in the ***three vertical*** dots in the ***Fingerprint*** row and select ***View Config File***.
 
 ![](./images/oci-apikey-10.png)
 
